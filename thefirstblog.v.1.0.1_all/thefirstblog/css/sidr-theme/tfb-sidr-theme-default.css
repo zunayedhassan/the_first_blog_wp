@@ -1,0 +1,31 @@
+.sidr {
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    width: 360px;
+    overflow-x: none;
+    overflow-y: auto;
+    
+    background: #222;
+    color: whitesmoke;
+/*    -webkit-box-shadow: inset -4px 3px 19px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -4px 3px 19px -9px rgba(0,0,0,0.75);
+    box-shadow: inset -4px 3px 19px -9px rgba(0,0,0,0.75);*/
+}
+
+.sidr .sidr-inner {
+    padding: 0 0 15px;
+}
+
+.sidr.right {
+    left: auto;
+    right: -260px;
+}
+
+.sidr.left {
+    left: -260px;
+    right: auto;
+}

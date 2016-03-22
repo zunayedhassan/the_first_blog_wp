@@ -1,0 +1,71 @@
+
+
+#tfb-main-header nav {
+    display: inline-block;
+    margin-bottom: -5px;
+}
+
+#tfb-main-header .tfb-searchform {
+    width: 100%;
+}
+
+.tfb-articles-navigation ul:first-child {
+    text-align: left;
+}
+
+.tfb-articles-navigation ul:last-child {
+    text-align: right;
+}
+
+.tfb-articles-navigation ul {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.tfb-post-type-icon {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+.tfb-article-content header h2 {
+    max-width: 97%;
+}
+
+
+/* single.php */
+.tfb-article-content.single {
+    padding: 0 3.5em 0 3.5em;
+}
+
+.tfb-article-content.single > header > h2, .tfb-article-content.single > header .tfb-article-info2 {
+    text-align: center;
+}
+
+.tfb-article-content.single .tfb-post-type-icon {
+    right: 1em;
+}
+
+/* Audio Format */
+
+
+/* Player */
+div.mejs-container.svg.mejs-audio {
+    max-width: 500px !important;
+}
+
+
+/* Similar Articles */
+.tfb-similar-articles {
+    padding: 0 5em 2em 5em;
+}
+
+/*Comments */
+.tfb-comments-area > section {
+    padding: 0 4em 2em 4em;
+}
+
+.tfb-comment-editor-area input:not(#submit), .tfb-comment-editor-area textarea, .tfb-comment-editor-area p, .comment-respond input:not(#submit), .comment-respond textarea, .comment-respond p {
+    width: 75%;
+}

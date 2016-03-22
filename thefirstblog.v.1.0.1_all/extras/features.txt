@@ -1,0 +1,26 @@
+<h3>Features</h3>
+        
+<ol>
+	<li>Modern Design</li>
+	<li><strong>Twitter Feeds</strong> on Header</li>
+	<li>A lot of <strong>custom widgets</strong> like Flickr, Pinterest, Twitter, Social Icons, Google Plus Badge, Facebook Like Page, Embedded Video etc</li>
+	<li><strong>Fully Responsive</strong> and <strong>Retina</strong> display ready</li>
+	<li><strong>Builtin Portfolio</strong> page</li>
+	<li><strong>Unlimited</strong> colors</li>
+	<li><strong>Custom logo</strong> uploader</li>
+	<li><strong>Favicon</strong> uploader</li>
+	<li>Easy to use but powerful <strong>Admin Panel</strong></li>
+	<li><strong>Post format supported</strong> - (Standard, Audio, Aside, Link, Video, Image, Gallery, Quote, Chat, Status)</li>
+	<li><strong>Sliding and Grid</strong> gallery</li>
+	<li>Native WordPress <strong>Audio and Video player</strong></li>
+	<li><strong>Translation</strong> ready</li>
+	<li>A lot of <strong>shortcodes</strong></li>
+	<li><strong>600++</strong> Google fonts</li>
+	<li>Social Icons</li>
+	<li>Custom <strong>scripts</strong> and <strong>styles</strong> options</li>
+	<li><strong>Typography</strong> options</li>
+	<li>Looks awesome on iPad</li>
+	<li>Details <strong>Documentation</strong></li>
+	<li><strong>Support</strong> by email</li>
+	<li>Free <strong>Updates</strong></li>
+</ol>

@@ -1,0 +1,130 @@
+pre {
+    padding: 0;
+}
+
+pre code {
+    padding: 8px;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+#table-of-contents ul {
+    list-style: none;
+}
+
+.container {
+    background: #fff;
+}
+
+body {
+    background: #EBEDF0;
+    font-family: 'Droid Sans', sans-serif;
+    line-height: 24px;
+}
+
+.jumbotron {
+    background: #f5f5f5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.jumbotron ul {
+    list-style: none;
+    padding: 0;
+}
+
+.jumbotron > p:first-of-type, .jumbotron h1 {
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 28pt;
+    color: #666;
+    border-bottom: none;
+}
+
+.jumbotron div ul li {
+    font-size: 10pt;
+}
+
+.jumbotron *:not(h1):not(a) {
+    font-size: 11pt;
+    color: #999;
+}
+
+h2, h3, h4, h5, h6, dt {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+em {
+    font-family: 'Georgia', serif;
+}
+
+article {
+    font-size: 12pt;
+    padding: 1.5em;
+}
+
+article li {
+    margin-bottom: 8px;
+}
+
+.thumbnail {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h2:not(:first-of-type) {
+    margin-top: 2em;
+}
+
+h2 {
+    color: #779877;
+}
+
+h3, h4, h5, h6, dt {
+    margin-top: 1em;
+    color: #779877;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    background: #F5F5F5 !important;
+}
+
+header h2 {
+    font-size: 14pt;
+}
+
+* h3 {
+    font-size: 13pt;
+}
+
+#header-links a, #header-links a:hover {
+    color: #666;
+}
+
+#header-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#header-links div {
+    border: 1px solid #E6E6E6;
+    min-height: 50px;
+    padding-top: 8px;
+}
+
+#header-links div:hover {
+    border-color: #CCC;
+}
+
+#last-note {
+    text-align: center;
+    padding: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 11pt;
+    border: 1px solid #999;
+}

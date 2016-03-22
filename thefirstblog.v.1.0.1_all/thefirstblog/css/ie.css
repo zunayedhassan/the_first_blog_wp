@@ -1,0 +1,15 @@
+
+#tfb-navigation-area {
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.tfb-sc-columns.column-count2 {
+    -ms-column-count: 2;
+    -ms-column-gap: 40px;
+}
+
+.tfb-sc-columns.column-count3 {
+    -ms-column-count: 3;
+    -ms-column-gap: 40px;
+}

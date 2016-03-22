@@ -1,0 +1,552 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The First Blog - Bengali BD Translation Project 1\n"
+"POT-Creation-Date: 2014-03-07 16:03+0600\n"
+"PO-Revision-Date: 2014-04-01 07:51+0600\n"
+"Last-Translator: Mohammod Zunayed Hassan <GraphiteThemes@gmail.com>\n"
+"Language-Team: Graphite Themes <GraphiteThemes@gmail.com>\n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../inc\n"
+
+#: ../404.php:10
+msgid "Stay clam and don't freak out ..."
+msgstr "শান্ত হোন, ঘাবরানোর কিছু নেই..."
+
+#: ../404.php:15
+msgid "The page you are looking for doesn't exist."
+msgstr "আপনি যে পাতাটি খুজছেন সেটা আর নেই।"
+
+#: ../404.php:15
+msgid "You can either visit our"
+msgstr "আপনি চাইলে দেখতে পারেন আমাদের"
+
+#: ../404.php:15
+msgid "home page"
+msgstr "প্রথম পাতা"
+
+#: ../404.php:15
+msgid "or search about something else."
+msgstr "অথবা অন্য কিছু খুজে দেখতে পারেন।"
+
+#: ../404.php:15
+msgid "By the way... we are really sorry."
+msgstr "যাই হোক... আমরা সত্যিই খুব দুঃখিত।"
+
+#: ../archive.php:16
+#, php-format
+msgid "Archive for the %s Category"
+msgstr "%s ধরনের জন্য আর্কআইভ"
+
+#: ../archive.php:22
+#, php-format
+msgid "Posts Tagged with %s"
+msgstr "যেসব তথ্যে %s ট্যাগ রয়েছে"
+
+#: ../archive.php:26 ../archive.php:30 ../archive.php:34
+#, php-format
+msgid "Archive for  %s"
+msgstr "%s এর জন্য আর্কাইভ"
+
+#: ../archive.php:39
+msgid "Author Archive"
+msgstr "লেখকের আর্কাইভ"
+
+#: ../archive.php:45
+msgid "Blog Archive"
+msgstr "ব্লগ আর্কাইভ"
+
+#: ../archive.php:78 ../index.php:28 ../page-portfolio.php:137
+#: ../search.php:37
+msgid "Nothing found"
+msgstr "কোন কিছুই নেই"
+
+#: ../archive.php:81
+msgid "Sorry, we couldn't find anything"
+msgstr "দুঃখিত, কোন কিছুই পাওয়া গেল না"
+
+#: ../comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "দয়া করে এই পেজ থেকে সরাসরি কোন কিছু লোড করবেন না। ধন্যবাদ!"
+
+#: ../comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"এই আর্টিকেলটি পাসওইয়ার্ড দ্বারা সুরক্ষিত। মন্তব্যগুলো দেখতে চাইলে পাসওইয়ার্ড দিন।"
+
+#: ../comments.php:19
+msgid "No Responses"
+msgstr "কোন মন্তব্য নেই"
+
+#: ../comments.php:19
+msgid "One Response"
+msgstr "১টি মন্তব্য"
+
+#: ../comments.php:19
+msgid "% Responses"
+msgstr "%টি মন্তব্য"
+
+#: ../comments.php:32
+msgid "Older Comments"
+msgstr "পুরানো মন্তব্যসমূহ"
+
+#: ../comments.php:33
+msgid "Newer Comments"
+msgstr "নতুন মন্তব্যসমূহ"
+
+#: ../comments.php:57
+msgid "Leave a Reply"
+msgstr "মন্তব্য করুন"
+
+#: ../comments.php:57
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "%s এর প্রতি মন্তব্য করুন"
+
+#: ../comments.php:61
+msgid "Click here to cancel reply."
+msgstr "মন্তব্য করতে না চাইলে এখানে ক্লিক করুন।"
+
+#: ../comments.php:67
+#, php-format
+msgid "You must be %s to post a comment."
+msgstr "মন্তব্য করতে চাইলে আপনাকে অবশ্যিই %s করতে হবে"
+
+#: ../comments.php:67
+msgid "logged in"
+msgstr "লগইন"
+
+#: ../comments.php:77
+#, php-format
+msgid "Logged in as %s."
+msgstr "আপনি %s হয়ে লগইন আছেন।"
+
+#: ../comments.php:77
+msgid "Log out of this account"
+msgstr "লগআউট করুন"
+
+#: ../comments.php:77
+msgid "Log out"
+msgstr "লগআউট"
+
+#: ../comments.php:84
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+"আপনার ইমেইলের ঠিকানা প্রকাশ করা হবে না। প্রয়জনীয় অংশগুলো চিহ্নিত (*) করা আছে "
+
+#: ../comments.php:89
+msgid "Name"
+msgstr "নাম"
+
+#: ../comments.php:103
+msgid "Email"
+msgstr "ইমেইল"
+
+#: ../comments.php:110
+msgid "Website"
+msgstr "ওয়েব সাইট"
+
+#: ../comments.php:119 ../content-index-aside.php:9
+#: ../content-index-audio.php:9 ../content-index-chat.php:9
+#: ../content-index-gallery.php:9 ../content-index-image.php:9
+#: ../content-index-link.php:9 ../content-index-quote.php:9
+#: ../content-index-status.php:9 ../content-index-video.php:9
+#: ../content-index.php:9
+msgid "Comment"
+msgstr "মন্তব্য"
+
+#: ../comments.php:124
+msgid "You can use these tags:"
+msgstr "আপনি চাইলে এসমস্ত ট্যাগগুলো ব্যবহার করতে পারেন:"
+
+#: ../comments.php:129
+msgid "Post Comment"
+msgstr "মন্তব্য করুন"
+
+#: ../content-index-aside.php:9 ../content-index-audio.php:9
+#: ../content-index-chat.php:9 ../content-index-gallery.php:9
+#: ../content-index-image.php:9 ../content-index-link.php:9
+#: ../content-index-quote.php:9 ../content-index-status.php:9
+#: ../content-index-video.php:9 ../content-index.php:9
+msgid "1"
+msgstr "১টি"
+
+#: ../content-index-aside.php:9 ../content-index-audio.php:9
+#: ../content-index-chat.php:9 ../content-index-gallery.php:9
+#: ../content-index-image.php:9 ../content-index-link.php:9
+#: ../content-index-quote.php:9 ../content-index-status.php:9
+#: ../content-index-video.php:9 ../content-index.php:9
+msgid "Comments"
+msgstr "মন্তব্যসমূহ"
+
+#: ../content-index-aside.php:15 ../content-single-aside.php:1
+msgid "Aside"
+msgstr "কিছু কথা"
+
+#: ../content-index-aside.php:30 ../content-index-audio.php:31
+#: ../content-index-chat.php:30 ../content-index-gallery.php:30
+#: ../content-index-image.php:30 ../content-index-link.php:26
+#: ../content-index-quote.php:30 ../content-index-status.php:30
+#: ../content-index-video.php:31 ../content-index.php:30
+#: ../content-single-aside.php:17 ../content-single-audio.php:17
+#: ../content-single-chat.php:17 ../content-single-gallery.php:17
+#: ../content-single-image.php:17 ../content-single-link.php:13
+#: ../content-single-quote.php:17 ../content-single-status.php:17
+#: ../content-single-video.php:17 ../content-single.php:17
+msgid "Views"
+msgstr "বার দেখা হয়েছে"
+
+#: ../content-index-aside.php:32 ../content-index-audio.php:33
+#: ../content-index-chat.php:32 ../content-index-gallery.php:32
+#: ../content-index-image.php:32 ../content-index-link.php:28
+#: ../content-index-quote.php:32 ../content-index-status.php:32
+#: ../content-index-video.php:33 ../content-index.php:32
+#: ../content-single-aside.php:22 ../content-single-audio.php:22
+#: ../content-single-chat.php:22 ../content-single-gallery.php:22
+#: ../content-single-image.php:22 ../content-single-link.php:18
+#: ../content-single-quote.php:22 ../content-single-status.php:22
+#: ../content-single-video.php:22 ../content-single.php:22
+msgid "No Comment"
+msgstr "কোন মন্তব্য নেই"
+
+#: ../content-index-aside.php:32 ../content-index-audio.php:33
+#: ../content-index-chat.php:32 ../content-index-gallery.php:32
+#: ../content-index-image.php:32 ../content-index-link.php:28
+#: ../content-index-quote.php:32 ../content-index-status.php:32
+#: ../content-index-video.php:33 ../content-index.php:32
+#: ../content-single-aside.php:22 ../content-single-audio.php:22
+#: ../content-single-chat.php:22 ../content-single-gallery.php:22
+#: ../content-single-image.php:22 ../content-single-link.php:18
+#: ../content-single-quote.php:22 ../content-single-status.php:22
+#: ../content-single-video.php:22 ../content-single.php:22
+msgid "1 Comment"
+msgstr "১টি মন্তব্য"
+
+#: ../content-index-aside.php:32 ../content-index-audio.php:33
+#: ../content-index-chat.php:32 ../content-index-gallery.php:32
+#: ../content-index-image.php:32 ../content-index-link.php:28
+#: ../content-index-quote.php:32 ../content-index-status.php:32
+#: ../content-index-video.php:33 ../content-index.php:32
+#: ../content-single-aside.php:22 ../content-single-audio.php:22
+#: ../content-single-chat.php:22 ../content-single-gallery.php:22
+#: ../content-single-image.php:22 ../content-single-link.php:18
+#: ../content-single-quote.php:22 ../content-single-status.php:22
+#: ../content-single-video.php:22 ../content-single.php:22
+msgid "% Comments"
+msgstr "% টি মন্তব্য"
+
+#: ../content-index-aside.php:40 ../content-index-audio.php:41
+#: ../content-index-chat.php:40 ../content-index-gallery.php:40
+#: ../content-index-image.php:40 ../content-index-link.php:36
+#: ../content-index-quote.php:40 ../content-index-status.php:40
+#: ../content-index-video.php:41 ../content-index.php:40
+msgid "Read More"
+msgstr "বিস্তারিত পড়ুন"
+
+#: ../content-index-audio.php:16 ../content-single-audio.php:1
+msgid "Audio"
+msgstr "গান/বাজনা"
+
+#: ../content-index-chat.php:15 ../content-single-chat.php:1
+msgid "Chat"
+msgstr "গাল-গপ্প"
+
+#: ../content-index-gallery.php:15 ../content-single-gallery.php:1
+msgid "Gallery"
+msgstr "গ্যালারি"
+
+#: ../content-index-image.php:15 ../content-single-image.php:1
+msgid "Image"
+msgstr "ছবি"
+
+#: ../content-index-link.php:15 ../content-single-link.php:1
+msgid "Link"
+msgstr "লিংক"
+
+#: ../content-index-quote.php:15 ../content-single-quote.php:1
+msgid "Quote"
+msgstr "উক্তি"
+
+#: ../content-index-status.php:15 ../content-single-status.php:1
+msgid "Status"
+msgstr "আজকাল"
+
+#: ../content-index-video.php:16 ../content-single-video.php:1
+msgid "Video"
+msgstr "ভিডিও"
+
+#: ../content-index.php:15 ../content-single.php:1
+msgid "Standard Post"
+msgstr "প্রবন্ধ"
+
+#: ../content-single-aside.php:36 ../content-single-audio.php:36
+#: ../content-single-chat.php:36 ../content-single-gallery.php:36
+#: ../content-single-image.php:36 ../content-single-link.php:32
+#: ../content-single-quote.php:36 ../content-single-status.php:36
+#: ../content-single-video.php:36 ../content-single.php:36
+#: ../single-portfolio.php:85
+msgid "Pages:"
+msgstr "পৃষ্ঠা:"
+
+#: ../functions.php:97
+msgid "(Edit)"
+msgstr "(সম্পাদনা করুন)"
+
+#: ../functions.php:117
+msgid "Post author"
+msgstr "লেখক"
+
+#. translators: 1: date, 2: time
+#: ../functions.php:123
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: ../functions.php:138
+msgid "Reply"
+msgstr "মন্তব্য করুন"
+
+#: ../functions.php:141
+msgid "Edit"
+msgstr "সম্পাদনা করুন"
+
+#: ../header.php:30
+#, php-format
+msgid "Tag Archive for &quot;%s&quot; - "
+msgstr "%s এর জন্য ট্যাগ আর্কাইভ -"
+
+#: ../header.php:35
+msgid " Archive - "
+msgstr " আর্কাইভ -"
+
+#: ../header.php:38
+#, php-format
+msgid "Search for &quot;%s&quot; - "
+msgstr "অনুসন্ধানের ফলাফল %s এর জন্য  -"
+
+#: ../header.php:45
+msgid "Not Found - "
+msgstr "কোন পাওয়া গেল না - "
+
+#: ../header.php:58
+msgid " - page "
+msgstr " - পৃষ্ঠা "
+
+#: ../inc/tfb-portfolio-type.php:6
+msgid "Portfolio"
+msgstr "পোর্টফলিও"
+
+#: ../inc/tfb-portfolio-type.php:7
+msgid "Project"
+msgstr "কাজ"
+
+#: ../inc/tfb-theme-settings.php:14 ../inc/tfb-theme-settings.php:146
+msgid "Theme Settings"
+msgstr ""
+
+#: ../inc/tfb-theme-settings.php:175
+msgid "Custom Logo"
+msgstr ""
+
+#: ../inc/tfb-theme-settings.php:177 ../inc/tfb-theme-settings.php:192
+#: ../inc/tfb-theme-settings.php:240
+msgid "Upload"
+msgstr ""
+
+#: ../inc/tfb-theme-settings.php:178 ../inc/tfb-theme-settings.php:193
+#: ../inc/tfb-theme-settings.php:241
+msgid "Clear"
+msgstr ""
+
+#: ../inc/tfb-theme-settings.php:183 ../inc/tfb-theme-settings.php:233
+msgid "Preview"
+msgstr "দেখুন"
+
+#: ../inc/tfb-theme-settings.php:190
+msgid "Favicon"
+msgstr ""
+
+#: ../inc/tfb-theme-settings.php:201
+msgid "Header Background Type"
+msgstr ""
+
+#: ../inc/tfb-theme-settings.php:218
+msgid "Choose an image or upload"
+msgstr ""
+
+#: ../inc/tfb-theme-settings.php:238
+msgid "Upload header background image"
+msgstr ""
+
+#: ../inc/tfb-theme-settings.php:242
+msgid "Recommended Size: 1200px"
+msgstr ""
+
+#: ../inc/tfb-theme-settings.php:248
+msgid "Image Position (Vertical)"
+msgstr ""
+
+#: ../inc/tfb-theme-settings.php:263
+msgid "Vertical Attachment"
+msgstr ""
+
+#: ../inc/tfb-theme-settings.php:279
+msgid "Header Background Color"
+msgstr ""
+
+#: ../inc/tfb-theme-settings.php:292
+msgid "Disable Twitter slider from header"
+msgstr ""
+
+#: ../index.php:31 ../page-portfolio.php:140
+msgid "Sorry, there is no article right now"
+msgstr "দুঃখিত, এই মুহূর্তে কোন আর্টিকেল পাওয়া যাচ্ছে না"
+
+#: ../page-archive.php:48
+msgid "Latest Posts"
+msgstr "সাম্প্রতিক ব্লগসমূহ"
+
+#: ../page-archive.php:63
+msgid "Categories"
+msgstr "বিভাগ"
+
+#: ../page-archive.php:71
+msgid "Tags"
+msgstr "ট্যাগ"
+
+#: ../page-archive.php:80
+msgid "Pages"
+msgstr "পৃষ্ঠাসমূহ"
+
+#: ../page-archive.php:89
+msgid "List of Authors"
+msgstr "লেখকের তালিকা"
+
+#: ../page-archive.php:167 ../page.php:93 ../single-portfolio.php:159
+#: ../single.php:66
+msgid "Share this:"
+msgstr "শেয়ার করুন:"
+
+#: ../page-contact.php:38
+msgid "Please enter your name."
+msgstr "দয়া করে আপনার নাম লেখুন"
+
+#: ../page-contact.php:46
+msgid "Please enter your email address."
+msgstr "দয়া করে আপনার ইমেইলের ঠিকানা লেখুন"
+
+#: ../page-contact.php:50
+msgid "You entered an invalid email address."
+msgstr "আপনি ভুল ইমেইলের ঠিকানা দিয়েছেন"
+
+#: ../page-contact.php:58
+msgid "Please enter a message."
+msgstr "দয়া করে মন্তব্য লেখুন"
+
+#: ../page-contact.php:92
+msgid "Thanks, your email was sent successfully."
+msgstr "ধন্যবাদ, আপনার ইমেল সফলভাবে পাঠানো হয়েছে।"
+
+#: ../page-contact.php:97
+msgid "Sorry, an error occurred."
+msgstr "দুঃখিত, কোন ভুল হয়ে গেছে।"
+
+#: ../page-contact.php:103
+msgid "Name:"
+msgstr "নাম:"
+
+#: ../page-contact.php:111
+msgid "Email:"
+msgstr "ইমেইল:"
+
+#: ../page-contact.php:118
+msgid "Message:"
+msgstr "মন্তব্য:"
+
+#: ../page-contact.php:126
+msgid "Send Email"
+msgstr "ইমেইল করুন"
+
+#: ../page-portfolio.php:58
+msgid "All"
+msgstr "সব"
+
+#: ../page-portfolio.php:62
+#, php-format
+msgid "View all posts in %s"
+msgstr "%s ধরনের সমস্ত পোস্ট দেখুন"
+
+#: ../page.php:59 ../single-portfolio.php:129 ../single.php:36
+msgid "Prev"
+msgstr "পূর্ববর্তী"
+
+#: ../page.php:77 ../single-portfolio.php:147 ../single.php:54
+msgid "Next"
+msgstr "পরবর্তী"
+
+#: ../search.php:8
+#, php-format
+msgid "Search results for &quot;%s&quot;"
+msgstr "%s এর জন্য  অনুসন্ধানের ফলাফল"
+
+#: ../search.php:40
+#, php-format
+msgid "Sorry, we couldn't find anything for %s"
+msgstr "দুঃখিত, %s এর জন্য কোন কিছুই পাওয়া গেল না"
+
+#: ../searchform.php:3
+msgid "Search..."
+msgstr "অনুসন্ধান করুন..."
+
+#: ../single-portfolio.php:38
+msgid "Skills:"
+msgstr "দক্ষতা:"
+
+#: ../single-portfolio.php:44
+msgid "Client:"
+msgstr "ক্লায়েন্ট:"
+
+#: ../single-portfolio.php:49
+msgid "Date:"
+msgstr "তারিখ:"
+
+#: ../single-portfolio.php:74
+msgid "Type:"
+msgstr "ধরন:"
+
+#: ../single-portfolio.php:114 ../single.php:21
+msgid "Taged with"
+msgstr "ট্যাগ করা হয়েছে"
+
+#: ../single-portfolio.php:190 ../single.php:97
+#, php-format
+msgid "View all articles by %s"
+msgstr "%s সমস্ত পোস্ট দেখুন"
+
+#: ../single-portfolio.php:190 ../single.php:97
+msgid "this author"
+msgstr "এই লেখকের"
+
+#: ../single-portfolio.php:234 ../single.php:141
+msgid "Related Articles"
+msgstr "এই ধরনের আরো আর্টিকেল"
+
+#, fuzzy
+#~ msgid "Share this"
+#~ msgstr "শেয়ার করুন:"
+
+#, fuzzy
+#~ msgid "Taged with:"
+#~ msgstr "ট্যাগ করা হয়েছে"
+
+#, fuzzy
+#~ msgid "Images"
+#~ msgstr "ছবি"

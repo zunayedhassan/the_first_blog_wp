@@ -1,0 +1,169 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 12, 2014, 10:25:44 PM
+    Author     : Zunayed Hassan
+*/
+
+#tfb-header-slider .flexslider .tfb-slide-item {
+    width: 85%;
+}
+
+#tfb-main-header nav {
+    display: block;
+    overflow: visible;
+}
+
+.tfb-articles-navigation ul:first-child {
+    text-align: center;
+}
+
+.tfb-articles-navigation ul:last-child {
+    text-align: center;
+}
+
+.tfb-articles-navigation ul:first-child {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tfb-articles-navigation ul:last-child {
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+}
+
+.tfb-author-meta-info-name h2, .tfb-author-meta-info-description, .tfb-profile-pic-bg {
+    text-align: center;
+}
+
+.tfb-article-info2, .tfb-article-info2 li {
+    text-align: left;
+    display: block !important;
+}
+
+
+.tfb-the-content blockquote {
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    margin: 1em 0 1em 0;
+}
+
+.tfb-author-info-links div {
+    display: block;
+}
+
+.tfb-author-info-links div, .tfb-author-info-links ul {
+    text-align: center;
+}
+
+.tfb-author-info-links div:last-child {
+    padding: 0;
+    border: none;
+}
+
+.tfb-article-navigation-area {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.tfb-article-content header {
+    text-align: center;
+}
+
+.more-link {
+    text-align: center;
+    display: block;
+}
+
+
+.tfb-the-content .alignnone, .tfb-the-content .alignleft, .tfb-the-content .alignright, .tfb-the-content .aligncenter, .tfb-the-content .alignnone img, .tfb-the-content .alignleft img, .tfb-the-content .alignright img, .tfb-the-content .aligncenter img {
+    width: 100%;
+    height: auto;
+}
+
+
+.tfb-the-content iframe, .tfb-the-content video, .tfb-the-content .wp-video {
+    max-width: 100% !important;
+    margin: auto;
+}
+
+.tfb-the-content .mejs-container.svg.mejs-video {
+    width: 100% !important;
+    height: auto;
+}
+
+/* Gallery */
+.tfb-gal-list, .tfb-gal-list img, .tfb-gal-caption {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+/* Code */
+.tfb-the-content pre code, .comment-content pre code {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* single.php */
+.tfb-article-content.single {
+    padding: 0;
+}
+
+.tfb-article-content.single > header > h2, .tfb-article-content.single > header .tfb-article-info2 {
+    text-align: center;
+}
+
+/* Audio Format */
+div.mejs-container.svg.mejs-audio {
+    max-width: 100% !important;
+}
+
+/* Similar Articles */
+.tfb-similar-articles {
+    padding: 0 2em 2em 2em;
+}
+
+.tfb-similar-articles ul {
+    padding: 0;
+}
+
+.tfb-similar-articles ul li {
+    max-width: 100%;
+}
+
+/*Comments */
+.tfb-comments-area > section {
+    padding: 0 1em 2em 1em;
+}
+
+
+.tfb-comment-editor-area input:not(#submit), .tfb-comment-editor-area textarea, .tfb-comment-editor-area p, .comment-respond input:not(#submit), .comment-respond textarea, .comment-respond p {
+    width: 100%;
+}
+
+.tfb-comment-avatar img {
+    margin-bottom: 0.5em;
+}
+
+.tfb-comment-list li, .tfb-comment-list ul {
+    padding: 0;
+    width: 100%;
+}
+
+/* Sidebar */
+
+.sidr {
+    width: 260px;
+}
+
+/* Footer */
+footer .tfb-footer-side {
+    text-align: center !important;
+}
+
+/* page-contact.php */
+.tfb-the-content input[type="text"], .tfb-the-content input[type="email"], .tfb-the-content input[type="url"], .tfb-the-content  input[type="tel"], .tfb-the-content textarea {
+    width: 100%;
+}

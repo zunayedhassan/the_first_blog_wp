@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 12, 2014, 10:34:10 PM
+    Author     : Zunayed Hassan
+*/
+
+
+#tfb-header-slider .flexslider .tfb-slide-item {
+    width: 70%;
+}
+
+#tfb-main-header nav {
+    display: inline-block;
+    margin-bottom: -5px;
+}
+
+.tfb-articles-navigation ul:first-child {
+    text-align: center;
+}
+
+.tfb-articles-navigation ul:last-child {
+    text-align: center;
+}
+
+.tfb-articles-navigation ul {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tfb-article-navigation-area {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.tfb-post-type-icon {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+.tfb-the-content iframe, .tfb-the-content video, .tfb-the-content .wp-video {
+    max-width: 100% !important;
+    margin: auto;
+}
+
+.tfb-the-content .mejs-container.svg.mejs-video {
+    width: 100% !important;
+    height: auto;
+}
+
+/* single.php */
+.tfb-article-content.single {
+    padding: 0 3.5em 0 3.5em;
+}
+
+.tfb-article-content.single > header > h2, .tfb-article-content.single > header .tfb-article-info2 {
+    text-align: center;
+}
+
+.tfb-article-content.single .tfb-post-type-icon {
+    right: 1em;
+}
+
+/* Audio Format */
+div.mejs-container.svg.mejs-audio {
+    max-width: 500px !important;
+}
+
+/* Similar Articles */
+.tfb-similar-articles {
+    padding: 0 5em 2em 5em;
+}
+
+/*Comments */
+.tfb-comments-area > section {
+    padding: 0 4em 2em 4em;
+}
+
+.tfb-comment-editor-area input:not(#submit), .tfb-comment-editor-area textarea, .tfb-comment-editor-area p, .comment-respond input:not(#submit), .comment-respond textarea, .comment-respond p {
+    width: 100%;
+}
+
+/* page-contact.php */
+.tfb-the-content input[type="text"], .tfb-the-content input[type="email"], .tfb-the-content input[type="url"], .tfb-the-content  input[type="tel"], .tfb-the-content textarea {
+    width: 100%;
+}

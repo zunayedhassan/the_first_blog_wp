@@ -1,0 +1,54 @@
+body, body *, article table, article td, article th, a {
+    color: #000 !important;
+}
+
+#tfb-navigation-area, #tfb-sidebar-toggle, #tfb-header-social-links, #tfb-header-slider, .tfb-post-related-icon, .tfb-comment-response-area, .tfb-comment-editor-area {
+    display: none;
+}
+
+#tfb-main-header, #tfb-main-header * {
+    padding: 0;
+    margin: 0;
+}
+
+#tfb-main-heading-area h1 a:link:after,
+#tfb-main-heading-area h1 a:visited:after,
+article header h2 a:link:after,
+article header h2 a:visited:after,
+article .tfb-article-info1 a:link:after,
+article .tfb-article-info1 a:visited:after,
+article .tfb-article-info2 a:link:after,
+article .tfb-article-info2 a:visited:after,
+.tfb-articles-navigation a:link:after,
+.tfb-articles-navigation a:visited:after,
+.tfb-article-navigation-area a:link:after,
+.tfb-article-navigation-area a:visited:after,
+.tfb-article-tags a:link:after,
+.tfb-article-tags a:visited:after,
+.tfb-author-meta-info-name a:link:after,
+.tfb-author-meta-info-name a:visited:after,
+.tfb-author-meta-info-social-links a:link:after,
+.tfb-author-meta-info-social-links a:visited:after,
+.tfb-similar-articles a:link:after,
+.tfb-similar-articles a:visited:after,
+.tfb-article-info-profile-pic a:link:after,
+.tfb-article-info-profile-pic a:visited:after,
+.comment-author a:link:after,
+.comment-author a:visited:after,
+.tfb-paginated-comment-links a:link:after,
+.tfb-paginated-comment-links a:visited:after,
+.tfb-post-page-numbers a:link:after,
+.tfb-post-page-numbers a:visited:after,
+.tfb-portfolio-item a:link:after,
+.tfb-portfolio-item a:visited:after
+{
+    content: '';
+}
+
+article, article *:not(table):not(td):not(th):not(.tfb-sc-button):not(.tfb-sc-box):not(.tfb-sc-toggle > span), .tfb-article-info3, .tfb-similar-articles *, .tfb-comments-area .tfb-comment-list .comment {
+    border: none !important;
+}
+
+.tfb-sc-button, .tfb-sc-tabs .tfb-tab-list > span a, .tfb-sc-box, .tfb-sc-toggle > span {
+    border: 1px solid #000 !important;
+}

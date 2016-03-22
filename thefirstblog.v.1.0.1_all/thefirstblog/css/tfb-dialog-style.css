@@ -1,0 +1,73 @@
+.ui-dialog {
+    font-size: 9pt;
+    font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+}
+
+.ui-dialog table {
+    font-size: 1em;
+}
+
+.demo-description {
+    clear: both;
+    padding: 12px;
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
+.ui-draggable, .ui-droppable {
+    background-position: top;
+}
+
+.ui-dialog label, .ui-dialog input { display:block; }
+.ui-dialog input.text { margin-bottom:12px; width:95%; padding: .4em; }
+.ui-dialog fieldset { padding:0; border:0; margin-top:25px; }
+.ui-dialog h1 { font-size: 1.2em; margin: .6em 0; }
+.ui-dialog div#users-contain { width: 350px; margin: 20px 0; }
+.ui-dialog div#users-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+.ui-dialog div#users-contain table td, .ui-dialog div#users-contain table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+
+.ui-dialog input[type=radio] { display:inline-block; vertical-align: bottom; }
+.ui-dialog input[type=checkbox] { display:inline-block; vertical-align: middle; }
+.ui-dialog input[type=radio]:not(:first-child) { margin-top: 5px; }
+.ui-dialog select { margin-bottom:12px; width:95%; padding: .4em; }
+
+#tfb-button-sc-preview-area div {
+    display: block;
+    width: 48px;
+    min-height: 32px;
+    text-align: center;
+    font-size: 32px;
+    margin: auto;
+    color: whitesmoke;
+    padding: 0.5em;
+}
+
+.ui-dialog textarea {
+    width: 95%;
+    min-height: 100px;
+}
+
+.ui-dialog .tfb-color-area {
+    width: 79%;
+    display: inline-block;
+}
+
+.ui-dialog .tfb-color-picker-btn {
+    width: 19%;
+    height: 2em;
+    display: inline-block;
+    margin-bottom: -8px;
+    border: 1px solid #666;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.colpick {
+    z-index: 101;
+}
+
+.tfb-dialog-hint {
+    color: #999;
+}

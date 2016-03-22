@@ -1,0 +1,25 @@
+.tfb-social-links ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    margin-top: 0.5em;
+}
+
+.tfb-social-links li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.tfb-social-links li:not(:last-child) {
+    margin-right: 3px;
+}
+
+.tfb-social-links li a {
+    display: block;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 3px;
+}

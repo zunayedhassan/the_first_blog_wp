@@ -1,0 +1,278 @@
+/* Comments */
+
+
+.tfb-comments-area > section {
+    margin-top: -2.5em;
+}
+
+.tfb-comments-area .comment:not(:first-child) {
+    padding-top: 1em;
+}
+
+.tfb-comments-header {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.cancel-comment-reply {
+    display: block;
+    margin-top: 8px;
+}
+
+.tfb-comment-list {             /* Resetting styles */
+    padding: 0;
+    list-style: none;
+}
+
+.tfb-comment-list li {
+    list-style: none;
+}
+
+
+.tfb-comment-list li .comment {
+    padding: 0;
+}
+
+.tfb-comment-list li .comment .comment {
+    padding: 0;
+    margin: 0;
+}
+
+.tfb-comment-list .comment {
+    border: none !important;
+}
+
+
+.comment .tfb-comment-avatar, .comment .tfb-comment {        /* Applying Block */
+    display: inline-block !important;
+    vertical-align: top !important;
+}
+
+/*.tfb-comment-avatar {
+    margin-right: 1em !important;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    
+}
+
+.tfb-comment-avatar img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+}*/
+
+.comment .tfb-comment {
+    max-width: 80%;
+    width: 80%;
+}
+
+@media only screen and (max-width : 640px) {
+    .comment .tfb-comment {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+.tfb-comment-list .comment li {
+    margin-top: 2em !important;
+}
+
+.comment header div, .comment header time {
+    display: block;
+}
+
+.comment-content {
+    margin-top: 1em !important;
+    
+}
+
+.comment-content img, .comment-content iframe, .comment-content audio, .comment-content video {
+    max-width: 100%;
+    
+}
+
+.comment-content img {
+    height: auto;
+}
+
+.comment-content a:hover {
+    text-decoration: underline !important;
+}
+
+.comment-content blockquote {
+    position: relative;
+    margin-left: 3em;
+    border: none;
+    margin-bottom: 0px !important;
+    
+}
+
+.comment-content blockquote cite {
+    margin-top: 8px;
+    font-style: normal;
+    
+}
+
+.comment-content blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+.comment-content blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    
+}
+
+.comment-content pre {
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    display: block;
+}
+
+.comment-content > p code, .comment-content pre {
+    background: transparent;
+    
+}
+
+
+.comment-content pre code {
+    display: block;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+.tfb-comment-response-area > div {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.tfb-comment-response-area {
+    margin-top: 1em;
+}
+
+.tfb-comment-response-area > div a {
+    padding: 3px 10px 3px 10px;
+    display: block;
+    border-radius: 3px;
+}
+
+
+
+
+.comment a:not(.comment-content) {
+    text-decoration: none;
+}
+
+
+
+.tfb-comment-response-area > div a {
+    display: block;
+}
+
+.comment header time:before {
+    content: ' - ';
+}
+
+.comment header time {
+    display: inline-block;
+}
+
+.comment-author span {
+    display: inline-block;
+    padding: 1px 5px 1px 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+
+
+.tfb-comment-list > .comment {
+    padding-bottom: 1.5em;
+}
+
+
+
+.comment-awaiting-moderation {
+    font-style: italic;
+}
+
+.tfb-paginated-comment-links, .tfb-paginated-comment-links a {
+    
+    text-align: right;
+}
+
+.tfb-paginated-comment-links .page-numbers {
+    display: inline-block;
+}
+
+.tfb-paginated-comment-links .page-numbers:not(.prev):not(.next):not(.dots) {
+    
+    border-radius: 80px;
+    text-align: center;
+    height: 24px;
+    min-width: 24px;
+    vertical-align: middle;
+}
+
+
+
+.tfb-paginated-comment-links .page-numbers {
+    
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+
+.tfb-comment-editor-area a:hover, .comment-respond a:hover  {
+    text-decoration: none;
+}
+
+.tfb-comment-editor-area form div *, .comment-respond form div * {
+    display: block;
+}
+
+.tfb-comment-editor-area form div:not(:first-child), .comment-respond form div:not(:first-child) {
+    margin-top: 16px;
+}
+
+.tfb-comment-editor-area input, .tfb-comment-editor-area textarea, .comment-respond input, .comment-respond textarea {
+    padding: 5px;
+    min-height: 1.5em;
+    
+}
+
+.tfb-comment-editor-area input:not(#submit), .tfb-comment-editor-area textarea, .comment-respond input:not(#submit), .comment-respond textarea {
+    
+    border-radius: 3px;
+}
+
+.tfb-comment-editor-area > form, .comment-respond > form  {
+    margin-top: 0em;
+}
+
+.tfb-comment-editor-area .code, .comment-respond .code {
+    background: transparent;
+    display: block;    
+}
+
+.tfb-comment-editor-area label, .comment-respond label {
+    font-weight: normal;
+    
+}
+
+.tfb-comment-editor-area input#submit, .comment-respond input#submit {
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+}

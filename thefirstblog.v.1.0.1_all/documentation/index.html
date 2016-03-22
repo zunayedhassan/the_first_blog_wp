@@ -1,0 +1,1513 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The First Blog Theme Documentation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="css/font-style.css">
+        <link rel="stylesheet" type="text/css" href="css/default-style.css">
+        <link rel="stylesheet" type="text/css" href="css/tab.css">
+        <link rel="stylesheet" type="text/css" href="css/zenburn.css">
+        <link rel="stylesheet" type="text/css" href="css/bitter/vanillabox.css">
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+        
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script type="text/javascript" src="js/jquery.scrollUp.min.js"></script>
+        <script type="text/javascript" src="js/highlight.pack.js"></script>
+        <script type="text/javascript" src="js/jquery.vanillabox-0.1.5.min.js"></script>
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="container">
+            <!-- Page Header -->
+            <header class="row jumbotron">
+                <!-- Description -->
+                <p class="col-md-12">&quot;The First Blog Theme&quot; Documentation by &quot;Graphite Themes&quot; v.1.0</p>
+                
+                <!-- Heading -->
+                <h1 class="col-md-12 page-header">The First Blog</h1>
+                
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <section class="row">
+                        
+                        <!-- Credits -->
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <ul>
+                                <li><strong>Created:</strong> <time datetime="2014-04-07T15:20:00Z">April 7, 2014</time></li>
+                                
+                                <li><strong>By:</strong> <a href="http://graphitethemes.html-5.me/">Graphite Themes</a></li>
+                                
+                                <li><a href="http://graphitethemes.html-5.me/themes/the-first-blog/">Theme Preview</a></li>
+                                
+                            </ul>
+                        </div>
+                        
+                        <!-- Contact Us -->
+                        <div class="col-md-8 col-sm-8 col-xs-8">
+                            
+                            <!-- Email -->
+                            <p>
+                                Thankyou for purchasing &quot;The First Blog&quot; theme. If you have any questions that are beyond the scope of this help file, please email us <a href="mailto:graphitethemes@gmail.com">GraphiteThemes@gmail.com</a>. Thanks so much!
+                            </p>
+                            
+                        </div>
+                        
+                    </section>
+                </div>
+                
+                <!-- Links -->
+                <div class="col-md-12" id='header-links'>
+                    <section class="row">
+                        <!-- Twitter -->
+                        <div class="col-md-4 col-sm-4">
+                            <a href="https://twitter.com/graphitethemes"><span class="image-icon"><img alt="Twitter Logo" src="images/twitter-logo.png" /></span> Follow us on Twitter</a>
+                        </div>
+
+                        <!-- Mojo Marketplace Page -->
+                        <div class="col-md-4 col-sm-4">
+                            <a href="https://www.mojomarketplace.com/user/zunayedhassan-T7YCS04IM0"><span class="image-icon"><img alt="Mojo Marketplace Logo" src="images/mojo-marketplace-logo.png" /></span> Mojo Marketplace Page</a>
+                        </div>
+
+                        <!-- Graphite Themes Website Link -->
+                        <div class="col-md-4 col-sm-4">
+                            <a href="http://graphitethemes.html-5.me"><span class="image-icon"><img alt="Graphite Thems Logo" src="images/graphite-themes-logo.png" /></span> Visit Our Website</a>
+                        </div>
+                    </section>
+                </div>
+
+            </header>
+            
+            <!-- Main Content -->
+            <div class="row">
+                <div class="col-md-12">
+                    
+                    <!-- Table of contents -->
+                    <section id="table-of-contents">
+                        <header>
+                            <h2>Table of Contents</h2>
+                        </header>
+                        
+                        <ol>
+                            <li><a href="#for-wp-beginners">For WordPress beginners</a></li>
+                            
+                            <li><a href="#installing-the-theme">Installing the Theme</a></li>
+                            
+                            <li>
+                                <a href="#getting-started">Getting Started</a>
+                                
+                                <ul>
+                                    <li><a href="#adding-menu">Adding Menu</a></li>
+                                    <li><a href="#getting-familiar-with-theme-settings-page">Getting Familiar with Theme Settings Page</a></li>
+                                    <li><a href="#installing-required-plugins">Installing Required Plugins</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li>
+                                <a href="#theme-settings-page">Theme Settings Page</a>
+                                
+                                <ul>
+                                    <li><a href="#adding-social-icons-on-header">Adding Social Icons on Header</a></li>
+                                    <li><a href="#adding-twitter-feeds-on-header">Adding Tweeter Feeds on Header</a></li>
+                                    <li><a href="#changing-logo">Changing Logo</a></li>
+                                    <li><a href="#changing-favicon">Changing Favicon</a></li>
+                                    <li><a href="#header-background">Header Background</a></li>
+                                    <li><a href="#disabling-header-animation">Disabling Header Animation</a></li>
+                                    <li><a href="#increase-the-size-of-header">Increase the Size of Header</a></li>
+                                    <li><a href="#menu-opacity">Menu Opacity</a></li>
+                                    <li><a href="#authors-desc">Author's Description</a></li>
+                                    <li><a href="#authors-social-links">Author's Social Links</a></li>
+                                    <li><a href="#sharing-article">Sharing Article</a></li>
+                                    <li><a href="#bg">Background</a></li>
+                                    <li><a href="#disabling-some-default-features">Disabling Some Default Features</a></li>
+                                    <li><a href="#ftr">Footer</a></li>
+                                    <li><a href="#theme-for-code-highlight-and-tooltip">Theme for Code Highlight and Tooltip</a></li>
+                                    <li><a href="#custom-script">Custom Script</a></li>
+                                    <li><a href="#appearances">Appearances</a></li>
+                                    <li><a href="#fnts">Fonts</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li>
+                                <a href="#useful-instructions">Useful Instructions</a>
+                                
+                                <ul>
+                                    <li><a href="#setting-up-featured-image">Setting up featured image</a></li>
+                                    <li><a href="#link-post">Link Post</a></li>
+                                    <li><a href="#creating-a-gallery">Creating a Gallery</a></li>
+                                    <li><a href="#creating-a-gallery-slideshow">Creating a Gallery Slideshow</a></li>
+                                    <li><a href="#portfolio-page">Portfolio Page</a></li>
+                                    <li><a href="#portfolio-gallery">Portfolio Gallery</a></li>
+                                    <li><a href="#contact-form-page">Contact Form Page</a></li>
+                                    <li><a href="#archive-page">Archive Page</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li>
+                                <a href="#using-shortcodes">Using Shortcodes</a>
+                                
+                                <ul>
+                                    <li><a href="#sc-buttons">Buttons</a></li>
+                                    <li><a href="#sc-boxes">Boxes</a></li>
+                                    <li><a href="#sc-tooltip">Tooltip</a></li>
+                                    <li><a href="#sc-skillbar">Skillbar</a></li>
+                                    <li><a href="#sc-toggle">Toggle</a></li>
+                                    <li><a href="#sc-accordions">Accordions</a></li>
+                                    <li><a href="#sc-tabs">Tabs</a></li>
+                                    <li><a href="#sc-columns">Columns</a></li>
+                                    <li><a href="#sc-highlight">Highlight</a></li>
+                                    <li><a href="#sc-hr">Horizontal Rule</a></li>
+                                    <li><a href="#sc-dropcap">Drop cap</a></li>
+                                    <li><a href="#sc-soundcloud">Soundcloud</a></li>
+                                    <li><a href="#sc-youtube">Youtube</a></li>
+                                    <li><a href="#sc-vimeo">Vimeo</a></li>
+                                    <li><a href="#sc-google-map">Google Map</a></li>
+                                    <li><a href="#sc-quote">Quote</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li><a href="#translation">Translation</a></li>
+                            
+                            <li>
+                                <a href="#widgets-included">Widgets included</a>
+                                
+                                <ul>
+                                    <li><a href="#about-me-widget">About Me</a></li>
+                                    <li><a href="#facebook-like-page-widget">Facebook Like Page</a></li>
+                                    <li><a href="#flickr-widget">Flickr</a></li>
+                                    <li><a href="#google-plus-badge-widget">Google Plus Badge</a></li>
+                                    <li><a href="#pinterest-widget">Pinterest</a></li>
+                                    <li><a href="#social-links-widget">Social Links</a></li>
+                                    <li><a href="#twitter-widget">Twitter</a></li>
+                                    <li><a href="#embedding-video-widget">Embedding Video</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li><a href="#css-files">CSS Files</a></li>
+                            
+                            <li><a href="#js-files">Javascript Files</a></li>
+                            
+                            <li><a href="#php-files">PHP Files</a></li>
+                            
+                            <li><a href="#support">Support</a></li>
+                        </ol>
+                    </section>
+                    
+                    <!-- Contents -->
+                    <article>
+                        <!-- 1. For WordPress beginners -->
+                        <section id="for-wp-beginners">
+                            <header>
+                                <h2>1. For WordPress beginners</h2>
+                            </header>
+                            
+                            <p>
+                                Although building a website with WordPress is significantly easier than coding it by yourself, if you are a beginner, even working with WordPress may look hard for you. That's why, in this section we will provide some useful links and also will explain how to get oriented in the documentation and what pattern to follow when building your website with our theme.
+                            </p>
+                            
+                            <div>
+                                <h3>Working with WordPress - Useful Links</h3>
+                            
+                                <ul>
+                                    <li>
+                                        <a href="http://wp.tutsplus.com/sessions/wp101-basix-training/">WP101 Basic Training</a> - the perfect beginning spot for those just getting started with WordPress. The video tutorials provided are very helpful to easily understand how WordPress works.
+                                    </li>
+
+                                    <li>
+                                        <a href="http://codex.wordpress.org/Main_Page">WordPress Codex</a> - the official WordPress manual containing lots of information and tutorials about working with WordPress.
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </section>  <!-- End of 1. For WordPress beginners -->
+                        
+                        
+                        
+                        <!-- 2. Installing the Theme -->
+                        <section id="installing-the-theme">
+                            
+                            <header>
+                                <h2>Installing the Theme</h2>
+                            </header>
+                            
+                            <p>There are 2 ways to install WordPress theme.</p>
+                            
+                            <div>
+                                <h3>Via builtin WordPress theme uploader</h3>
+                                
+                                <ul>
+                                    <li>Go to your WordPress <em>Dashboard</em> and choose <em>Appearance <span class="glyphicon glyphicon-arrow-right"></span> Themes</em> from the left pane.</li>
+                                    
+                                    <li>When <em>Theme</em> page arrived, click on <em>Add New</em> button.</li>
+                                    
+                                    <li>Now in the <em>Install Themes</em> page click on <em>Upload</em> link which is just above of the <em>Search box</em></li>
+                                    
+                                    <li>Click on <em>Choose File</em> button and choose <em>thefirstblog.zip</em> file. Then click <em>Install Now</em> button.</li>
+                                    
+                                    <li>After a few moments after installing the theme, you may be ready to enjoy your theme.</li>
+                                </ul>
+                            </div>
+                            
+                            
+                            <div>
+                                <h3>Via <abbr title="File Transfer Protocol">FTP</abbr> Client</h3>
+                                
+                                <ul>
+                                    <li>Install and run any FTP client. For example, you may use <a href="https://filezilla-project.org/">FileZilla</a> FTP client. Its free and opensource and also available on Mac, Linux and Windows platform. We are writing this tutorial for <em>FileZilla</em> now. Although any other FTP client should be fine and their procedures are similar as <em>FileZilla</em>.</li>
+                                    
+                                    <li>After running your FTP client software, give your FTP <em>Host Name</em>, <em>Username</em>, <em>Password</em> and <em>Port Number</em> (usually 21) on the respective field and click on <em>Quick Connect</em>.</li>
+                                    
+                                    <li>After establishing connection to the server; from the right side of the folder list, visit WordPress directory where <em>wp-admin</em>, <em>wp-content</em> and <em>wp-includes</em> directories are situated.</li>
+                                    
+                                    <li>Go to <em>wp-content <span class="glyphicon glyphicon-arrow-right"></span> themes</em> directory.</li>
+                                    
+                                    <li>Now, minimize your <em>FileZilla</em> software and go to your <em>thefirstblog.zip</em> file location in your computer. Now unzip (or decompress or extract) that <em>thefirstblog.zip</em> file.</li>
+                                    
+                                    <li>Go back to your <em>FileZilla</em> software and at the left side there is also a folder list almost similar to the right one. From that directory list locate your <em>thefirstblog</em> directory that you had decompressed few seconds ago.</li>
+                                    
+                                    <li>After locating that directory from <em>FileZilla</em>, right click on <em>thefirstblog</em> directory and choose <em>Upload</em>.</li>
+                                    
+                                    <li>Now, all of your files should be transferring from your PC to your web server via FTP client.</li>
+                                    
+                                    <li>Completing the transfer, open your browser and go to your WordPress <em>Dashboard</em>.</li>
+                                    
+                                    <li>Choose <em>Appearance <span class="glyphicon glyphicon-arrow-right"></span> Themes</em>.</li>
+                                    
+                                    <li>When <em>Themes</em> page arrived, there should be a <em>The First Blog</em> theme on the list.</li>
+                                    
+                                    <li>Choose your theme by clicking on <em>Activate</em> button.</li>
+                                    
+                                    <li>Now, go back to your website and enjoy.</li>
+                                </ul>
+                            </div>
+                            
+                        </section>  <!-- End of 2. Installing the Theme -->
+                        
+                        
+                        <!-- 3. Getting Started -->
+                        <section id="getting-started">
+                            
+                            <header>
+                                <h2>3. Gettings Started</h2>
+                            </header>
+                            
+                            <p>After successfully installing the theme, it is time to start some tweaking. In this section we are discussing some fundamental settings specifically required for this theme at the beginning. Don't worry it won't take long.</p>
+                            
+                            <div>
+                                
+                                <h3 id="adding-menu">Adding Menu</h3>
+                                
+                                <ul>
+                                    <li>Go to <em>Dashboard</em> and from the left pane choose <em>Appearance <span class="glyphicon glyphicon-arrow-right"></span> Menus</em>.</li>
+                                    
+                                    <li>After organizing or editing your menu, give it a name. The default name is <em>Menu 1</em> on <em>Menu Name</em> field. You can change this to any name like <em>My Menu</em> and click on <em>Create Menu</em> or <em>Save Menu</em> button.</li>
+                                    
+                                    <li>Now you menu is created and we named our menu as <em>My Menu</em> in this example.</li>
+                                    
+                                    <li>Click <em>Appearance <span class="glyphicon glyphicon-arrow-right"></span> Customize.</em></li>
+                                    
+                                    <li>In the <em>Customize</em> page click on <em>Navigation</em> from the list in the left and select the menu you have created few seconds ago. In our example we are choosing <em>My Menu</em> from the drop down list.</li>
+                                    
+                                    <li>Click on <em>Save</em> button.</li>
+                                    
+                                    <li>Congratulation! Now visit your WordPress site to enjoy.</li>
+                                </ul>
+                                
+                            </div>
+                            
+                            <div>
+                                <h3 id="getting-familiar-with-theme-settings-page">Getting Familiar with <em>Theme Settings</em> Page</h3>
+                                
+                                <p>If you are logged on your WordPress site, at the top of the page there is an admin bar. There you should find a menu item <em>Theme Settings</em>. Or in the dashboard, at the bottom of the left pane, there is also a menu item named <em>Theme Settings</em>. Click on that link to go to <em>Theme Settings</em> page.</p>
+                                
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-12">
+                                        <a href="images/help-contents/theme-settings-menu-location.png" class="thumbnail">
+                                            <img alt="Theme Settings Page Menu Location" src="images/help-contents/theme-settings-menu-location.png" />
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <p>In the, <em>Theme Settings</em> page you can change almost anything, like hiding, showing any element, changing any kind of fonts or changing any color of the element in depth. We will go through about this area one by one on later chapters.</p>           
+                                
+                                <a href="images/help-contents/theme-settings-page-screenshot.png" class="thumbnail">
+                                    <img alt="Theme Settings Page Screenshot" src="images/help-contents/theme-settings-page-screenshot.png" />
+                                </a>
+                            </div>
+                            
+                            <div id='installing-required-plugins'>
+                                <h3>Installing Required Plugins</h3>
+                                
+                                <p>Although this theme includes all the sufficient features, but there are 2 more plugins required to make this theme more awesome.</p>
+                                
+                                <dl>
+                                    <dt><a href="http://wordpress.org/plugins/slimjetpack/">Slim Jetpack</a></dt>
+                                    <dd>
+                                        <p>Required for embedding shortcode. Install this plugin and then open <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Settings <span class="glyphicon glyphicon-arrow-right"></span> Slim Jetpack</em>. Find <em>Shortcode Embed</em> option and click on <em>Activate</em> button.</p>
+                                        
+                                        <div class="alert alert-info">
+                                            <p>If you are already using <a href="https://wordpress.org/plugins/jetpack/">Jetpack by WordPress.com</a>, then you don't need to use this <em>Slim Jetpack</em> plugin.</p>
+                                        </div>
+                                    </dd>
+                                    
+                                    <dt><a href="http://wordpress.org/plugins/contact-form-7/">Contact Form 7</a></dt>
+                                    <dd>Although this theme already comes with &quot;Contact Form&quot;, but also works well with <em>Contact Form 7</em>. Using <em>Contact Form 7</em> is optional here but recommended.</dd>
+                                </dl>
+                            </div>
+                            
+                        </section>  <!-- End of 3. Getting Started -->
+                        
+                        
+                        <!-- 4. Theme Settings Page -->
+                        <section id="theme-settings-page">
+                            <header>
+                                <h2>4. Theme Settings Page</h2>
+                            </header>
+                            
+                            <p>In this section we are going to discuss about some features of this theme, which are absolutely necessary to know for user to use the full potential of the theme.</p>
+                            <!-- 1. Adding Social Icons on Header -->
+                            <div id="adding-social-icons-on-header">
+                                <h3>(a) Adding Social Icons on Header</h3>
+                                
+                                <ul>
+                                    <li>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Social Links</em></li>
+                                    
+                                    <li>Enter your social links on respective fields.</li>
+                                    
+                                    <li>Click on <em>Save Changes</em> button.</li>
+                                </ul>
+                                
+                                <a href="images/help-contents/theme-settings-social-links-for-header.png" class="thumbnail">
+                                    <img alt="Social Links for Header" src="images/help-contents/theme-settings-social-links-for-header.png" />
+                                </a>
+                                
+                                <div class="alert alert-warning">
+                                    <p>Make sure <em>Disable social links on header</em> check box is unchecked. Otherwise, you can't see any social links on header.</p>
+                                </div>
+                            </div>  <!-- End of 1. Adding Social Icons on Header -->
+                            
+                            
+                            <!-- 2. Adding Tweeter Feeds on Header -->
+                            <div id="adding-twitter-feeds-on-header">
+                                <h3>(b) Adding Tweeter Feeds on Header</h3>
+                                
+                                <p>You can display your <em>Twitter</em> feeds on website header. To achieve that, you need to have a <em>Twitter Widget ID</em>. Here are the required steps.</p>
+                                
+                                
+                                <section>
+                                    <h4 id="aquire-a-twitter-widget-id">Aquire a Twitter Widget ID</h4>
+                                    
+                                    <ul>
+                                        <li>Login in to <a href="http://twitter.com">Twitter</a> account.</li>
+                                        
+                                        <li>
+                                            <p>After logging in, go to <em>Twitter Settings Page</em></p>
+                                            
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                                    <a href="images/help-contents/twitter-settings-menu.png" class="thumbnail">
+                                                        <img alt="Twitter Settings Menu" src="images/help-contents/twitter-settings-menu.png" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                        <li>
+                                            <p>Now choose <em>Widget</em> from the left pane.</p>
+                                            
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                                    <a href="images/help-contents/twitter-settings-choosing-widget-page.png" class="thumbnail">
+                                                        <img alt="Twitter Settings: Choosing Widget Page from Left Pane" src="images/help-contents/twitter-settings-choosing-widget-page.png" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                        <li>When twitter widget page arrived, then click on <em>Create New</em> button.</li>
+                                        
+                                        <li>Now, there is a <em>Create a user widget</em> page opened. Here you don't need to do anything. Just click on <em>Create widget</em> button.</li>
+                                        
+                                        <li>
+                                            <p>Now at the bottom right side of the page, there is a text area with some HTML code. Select all those code and paste it to any text editor.</p>
+                                            
+                                            <a href="images/help-contents/twitter-widget-configuration.png" class="thumbnail">
+                                                <img alt="Twitter Widget Configuration" src="images/help-contents/twitter-widget-configuration.png" />
+                                            </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <p>If you copy and paste those code into a text editor, then you may find almost similar code like we have here.</p>
+                                            
+                                            <pre><code>&lt;a class="twitter-timeline" href="https://twitter.com/GraphiteThemes" data-widget-id="453852961827868672"&gt;Tweets by @GraphiteThemes&lt;/a&gt;<br />
+&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");&lt;/script&gt;</code></pre>
+                                        </li>
+                                        
+                                        <li>
+                                            Now, look carefully. At the first line after <code>data-widget-id</code>, there is a long number; something like <code>453852961827868672</code>. Copy this number. Because, this is your twitter widget id.
+                                        </li>
+                                        
+                                    </ul>
+                                </section>
+                                
+                                
+                                <section>
+                                    <h4>Setting <em>Twitter Widget ID</em> on <em>Theme Settings</em> Page</h4>
+                                    
+                                    <ul>
+                                        <li>Copy <em>Twitter Widget ID</em>. In our case, it is <code>453852961827868672</code>. But you must have different number as your widget ID.</li>
+                                        
+                                        <li>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Twitter Slider</em></li>
+                                        
+                                        <li>Paste that <em>Twitter Widget ID</em> of yours and set the <em>Total number of tweets</em></li>
+                                        
+                                        <li>Click on <em>Save Changes</em> button</li>
+                                    </ul>
+                                    
+                                    <a href="images/help-contents/theme-settings-twitter-slider-field.png" class="thumbnail">
+                                        <img alt="Setting Twitter Widget ID on Twitter Slider" src="images/help-contents/theme-settings-twitter-slider-field.png" />
+                                    </a>
+                                    
+                                    <div class="alert alert-warning">
+                                        <p>Make sure <em>Disable Twitter slider from header</em> check box is unchecked. Otherwise, you can't see any twitter feed on header.</p>
+                                    </div>
+                                </section>
+                                
+                            </div>      <!-- End of 2. Adding Tweeter Feeds on Header -->
+                            
+                            
+                            <!-- 3. Changing Logo -->
+                            <div id="changing-logo">
+                                <h3>(c) Changing Logo</h3>
+                                
+                                <p>Although this theme show site title in header, but you can change this to logo if you want.</p>
+                                
+                                <ul>
+                                    <li>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Header</em></li>
+                                    
+                                    <li>At the custom logo field, either you can type eternal link of image of the logo or click on <em>Upload</em> button to upload your logo.</li>
+                                    
+                                    <li>Alternatively you can also, use image from media library via <em>Upload</em> button to insert your custom logo.</li>
+                                    
+                                    <li>Now click on <em>Save</em> button.</li>
+                                </ul>
+                                
+                            </div>      <!-- End of 3. Changing Logo -->
+                            
+                            
+                            <!-- 4. Changing Favicon -->
+                            <div id="changing-favicon">
+                                <h3>(d) Changing Favicon</h3>
+                                
+                                <ul>
+                                    <li>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Header</em></li>
+                                    
+                                    <li>At the favicon field, either you can type eternal link of image of the favicon or click on <em>Upload</em> button to upload your favicon.</li>
+                                    
+                                    <li>Alternatively you can also, use image from media library via <em>Upload</em> button to insert your favicon.</li>
+                                    
+                                    <li>Now click on <em>Save</em> button.</li>
+                                </ul>
+                                
+                            </div>      <!-- End of 4. Changing Favicon -->
+                            
+                            <!-- 5. Header Background -->
+                            <div id="header-background">
+                                <h3>(e) Header Background</h3>
+                                
+                                <p>You can either change the background image or color of header</p>
+                                
+                                <ul>
+                                    <li>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Header</em></li>
+                                    
+                                    <li>Choose <em>Header background type</em></li>
+                                    
+                                    <li>Now upload image or change color and click on <em>Save Changes</em> button</li>
+                                </ul>
+                                
+                            </div>      <!-- End of 5. Header Background -->
+                            
+                            
+                            <!-- 6. Disable Header Animation -->
+                            <div id="disabling-header-animation">
+                                <h3>(f) Disable Header Animation</h3>
+                                
+                                <p>When you move your mouse over to any menu item, the header area animates. You can disable this feature.</p>
+                                
+                                <ul>
+                                    <li>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Header</em></li>
+                                    
+                                    <li>Click on <em>Disable header animation when mouse hovered on menu</em> to check the checkbox</li>
+                                    
+                                    <li>Now click on <em>Save Changes</em></li>
+                                </ul>
+                                
+                                <div class="alert alert-info">
+                                    <p>If you want to enlarge the header or if you are using very long list of sub menu along with <em>Twitter Feeds</em> on header, then it might be a good idea to enable the animation.</p>
+                                </div>
+                                
+                            </div>      <!-- End of 6. Disable Header Animation -->
+                            
+                            
+                            <!-- 7. Increase the Size of Header -->
+                            <div id="increase-the-size-of-header">
+                                <h3>(g) Increase the Size of Header</h3>
+                                
+                                <ul>
+                                    <li>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Header</em></li>
+                                    
+                                    <li>Click on <em>Disable header animation when mouse hovered on menu</em> to check the checkbox</li>
+                                    
+                                    <li>Now increase or decrease the number of <em>Padding for header area</em></li>
+                                    
+                                    <li>Now click on <em>Save Changes</em></li>
+                                </ul>
+                                
+                                <div class="alert alert-warning">
+                                    <p>Make sure that <em>Disable header animation when mouse hovered on menu</em> is checked.</p>
+                                </div>
+                                
+                            </div>      <!-- 7. Increase the Size of Header -->
+                            
+                            
+                            <!-- 8. Menu Opacity -->
+                            <div id="menu-opacity">
+                                <h3>(h) Menu Opacity</h3>
+                                
+                                <p>You can also change the <em>Transparency of menu</em> from <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Header</em></p>
+                                
+                            </div>      <!-- 8. Menu Opacity -->
+                            
+                            
+                            <!-- 9. Author's Description -->
+                            <div id="authors-desc">
+                                <h3>(i) Author's Description</h3>
+                                
+                                <p>On every blog page, you can display author's description. WordPress already has that builtin feature.</p>
+                                
+                                <a href="images/help-contents/authors-desc.png" class="thumbnail">
+                                    <img alt="Author&quot;s Description" src="images/help-contents/authors-desc.png" />
+                                </a>
+                                
+                                <ul>
+                                    <li>
+                                        <p>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Users <span class="glyphicon glyphicon-arrow-right"></span> Your Profile</em></p>
+                                        
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <a href="images/help-contents/user-profile-menu.png" class="thumbnail">
+                                                    <img alt="User Profile on Admin Panel Menu" src="images/help-contents/user-profile-menu.png" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>Now write about yourself on <em>Biographical Info</em> field</li>
+                                    
+                                    <li>Click on <em>Update Profile</em></li>
+                                </ul>
+                                
+                            </div>      <!-- End of 9. Author's Description -->
+                            
+                            
+                            <!-- 10. Author's Social Links -->
+                            <div id="authors-social-links">
+                                <h3>(j) Author's Social Links</h3>
+                                
+                                <p>You can also display your social links along with your biography on blog page at the end of the article.</p>
+
+                                
+                                <ul>
+                                    <li>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Social Links</em></li>
+                                    
+                                    <li>Write or edit your social links which you want to display.</li>
+                                    
+                                    <li>Now go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Author's Information</em></li>
+                                    
+                                    <li>Click on buttons to enable social links</li>
+                                    
+                                    <li>Click on <em>Save Changes</em> button.</li>
+                                </ul>
+                                
+                                <div class="alert alert-warning">
+                                    <p>Make sure that <em>Do not show author description</em> and <em>Do not show author's social links</em> are unchecked.</p>
+                                </div>
+                                
+                                <a class="thumbnail" href="images/help-contents/theme-settings-authors-social-links.png">
+                                    <img alt='Author&quot;s Social Link' src='images/help-contents/theme-settings-authors-social-links.png' />
+                                </a>
+                                
+                            </div>      <!-- End of 10. Author's Social Links -->
+                            
+                            
+                            <!-- 11. Share Article -->
+                            <div id="sharing-article">
+                                <h3>(k) Share Article</h3>
+                                
+                                <p>This theme also offers options for sharing article. You can choose social sites to share your page or blog from <em>Theme Settings</em> page.</p>
+                                
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-10 col-xs-12">
+                                        <a href="" class="thumbnail">
+                                            <img alt="Share Article" src="images/help-contents/share-article.png" />
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <ul>
+                                    <li>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Share</em></li>
+                                    
+                                    <li>Click on buttons to choose which network you want to use for sharing.</li>
+                                    
+                                    <li>Click on <em>Save Changes</em></li>
+                                </ul>
+                                
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-12">
+                                        <a class="thumbnail" href="images/help-contents/theme-settings-share.png">
+                                            <img alt='Share feature on Theme Settings Page' src='images/help-contents/theme-settings-share.png' />
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>      <!-- End of 11. Share Article -->
+                            
+                            
+                            <!-- 12. Background -->
+                            <div id="bg">
+                                <h3>(l) Background</h3>
+                                
+                                <p>You can change background color or background image from <em>Theme Settings</em> page. Just go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Background</em></p>
+                                
+                                <a href="images/help-contents/theme-settings-backgrounds.png" class="thumbnail">
+                                    <img alt="Theme Settings: Background" src="images/help-contents/theme-settings-backgrounds.png" />
+                                </a>
+                                
+                            </div>      <!-- End of 12. Background -->
+                            
+                            
+                            <!-- 13. Disabling Some Default Features -->
+                            <div id="disabling-some-default-features">
+                                <h3>(m) Disabling Some Default Features</h3>
+                                
+                                <p>This theme comes with some features, exactly designed for using with this theme. But just in case, if you want to use any third party plugin instead of these features, then it might be a good idea to disable those features to avoid conflict. To do that, we have added disabling features options. As a result of disabling features, it will save page loading time too.</p>
+                                
+                                <dl>
+                                    <dt>Gallery, Light Box, Image Hover Zoom Icon</dt>
+                                    <dd>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Media</em> and check on check boxes.</dd>
+                                    
+                                    <dt>Twitter Feeds on Header</dt>
+                                    <dd><em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Twitter Slider</em></dd>
+                                    
+                                    <dt>Back to Top Icon</dt>
+                                    <dd><em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Back to top</em></dd>
+                                    
+                                    <dt>Loading Screen, Custom Tooltip, Code Highlight</dt>
+                                    <dd><em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Miscellaneous</em></dd>
+                                    
+                                </dl>
+                                
+                            </div>      <!-- End of 13. Disabling Some Default Features -->
+                            
+                            <!-- 14. Footer  -->
+                            <div id="ftr">
+                                <h3>(n) Footer</h3>
+                                
+                                <p>You can use either one or two columns on footer. Just go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Footer</em>. You might also need to use some HTML code if you want to use link.</p>
+                                
+                            </div>      <!-- End of 14. Footer  -->
+                            
+                            
+                            <!-- 15. Theme for Code Highlight and Tooltip -->
+                            <div id="theme-for-code-highlight-and-tooltip">
+                                <h3>(o) Theme for <em>Code Highlight</em> and <em>Tooltip</em></h3>
+                                
+                                <p>There are already a lot of color schemes included for <em>Code Highlight</em> and <em>Tooltip</em>. You can change them from <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Miscellenious</em></p>
+                                
+                            </div>      <!-- End of 15. Theme for Code Highlight and Tooltip -->
+                            
+                            
+                            <!-- 16. Custom Script -->
+                            <div id="custom-script">
+                                <h3>(p) Custom Script</h3>
+                                
+                                <p>You can overwrite default styles and behavior from <em>Custom Script</em> section. Just visit <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Custom Script</em>.</p>
+                                
+                            </div>      <!-- End of 16. Custom Script -->
+                            
+                            
+                             <!-- 17. Appearances -->
+                             <div id="appearances">
+                                 <h3>(q) Appearances</h3>
+                                 
+                                 <p><em>Appearance</em> section of <em>Theme Settings</em> page provides to change color of almost every single element on the website. To use its full potential:</p>
+                                 
+                                 <ul>
+                                    <li>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Look &amp; Feel</em></li>
+                                 
+                                    <li>Here you can click on colored box to choose color and click <em>Ok</em> to confirm color or write hex color on the text box.</li>
+
+                                    <li>After changing color, click on <em>Save Changes</em>.</li>
+                                 </ul>
+                                 
+                                 <a href="images/help-contents/theme-settings-look-and-feel.png" class="thumbnail">
+                                     <img alt="Look &amp; Feel" src="images/help-contents/theme-settings-look-and-feel.png" />
+                                 </a>
+                                 
+                             </div>     <!-- End of 17. Appearances -->
+                             
+                             
+                             <!-- 18. Fonts -->
+                             <div id="fnts">
+                                 <h3>(r) Fonts</h3>
+                                 
+                                 <p><em>Fonts</em> settings page will able to help you to change font family of the theme and their sizes. There are already 600+ <a href="http://www.google.com/fonts">Google Fonts</a> available for you.</p>
+                                 
+                                 <ul>
+                                     <li>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Theme Settings <span class="glyphicon glyphicon-arrow-right"></span> Fonts</em>.</li>
+                                     
+                                     <li>Change fonts family and sizes</li>
+                                     
+                                     <li>Click on <em>Save Changes</em> button.</li>
+                                 </ul>
+                                 
+                                 <a href="images/help-contents/theme-settings-fonts.png" class="thumbnail">
+                                     <img alt="Theme Settings: Fonts" src="images/help-contents/theme-settings-fonts.png" />
+                                 </a>
+                                 
+                             </div>     <!-- End of 18. Fonts -->
+                            
+                        </section>      <!-- End of 4. Theme Settings Page -->
+                        
+                        
+                        <!-- 5. Useful Instructions -->
+                        <section id="useful-instructions">
+                            <header>
+                                <h2>5. Useful Instructions</h2>
+                            </header>
+                            
+                            <div id="setting-up-featured-image">
+                                <h3>Setting up Featured Image</h3>
+                                
+                                <p>In the blog post or page, you can set up featured image. To do that:</p>
+                                
+                                <ul>
+                                    <li>Open blog/page editor.</li>
+                                    
+                                    <li>
+                                        <p>Now at the lower right corner there is an option for <em>Featured Image</em>. Click on that link.</p>
+                                        
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <a href="images/help-contents/featured-image-option.png" class="thumbnail">
+                                                    <img src="images/help-contents/featured-image-option.png" alt="Featured Image Option" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>A media library will open, upload or choose image from media library for image featuring on your post.</li>
+                                </ul>
+                            </div>
+                            
+                            
+                            <div id="link-post">
+                                <h3>Link Post</h3>
+                                
+                                <p>This theme can allow you to use link type of post. Your article title can directly link to external page instead of WordPress permalink. For example, on normal occasion, when you publish a blog post; its title links to a single article page inside of your WordPress site. But if you want to point your article title link to another site like <em>http://www.facebook.com</em> then you want to follow these steps:</p>
+                                <ul>
+                                    <li>Open <em>Admin Bar <span class="glyphicon glyphicon-arrow-right"></span> New <span class="glyphicon glyphicon-arrow-right"></span> Post</em></li>
+                                    
+                                    <li>Now at the top right corner of the page, just below to the <em>Admin Bar</em> there is a button <em>Screen Options</em>.</li>
+                                    
+                                    <li>Click that <em>Screen Options</em> to expand and choose <em>Custom Fields</em> from there.</li>
+                                    
+                                    <li>Now at the bottom of the page a new field called <em>Custom Fields</em> will be visible.</li>
+                                    
+                                    <li>Expand that and click on <em>Add Custom Field</em></li>
+                                    
+                                    <li>
+                                        <p>Now type <code>title_url</code> and give your desired URL to its <em>Value</em> field.</p>
+                                        
+                                        <a href="images/help-contents/custom-field.png" class="thumbnail">
+                                            <img src="images/help-contents/custom-field.png" alt="Custom Field" />
+                                        </a>
+                                    </li>
+                                    
+                                    <li>Now at the right panel, choose <em>Link</em> from <em>Format</em> option.</li>
+                                    
+                                    <li>Click on <em>Publish</em> button.</li>
+                                </ul>
+                            </div>
+                            
+                            
+                            <!-- Creating a gallery -->
+                            <div id="creating-a-gallery">
+                                <h3>Creating a Gallery</h3>
+                                
+                                <ol>
+                                    <li>Go to <em>Admin Bar <span class="glyphicon glyphicon-arrow-right"></span> New <span class="glyphicon glyphicon-arrow-right"></span> Post</em>.</li>
+                                    
+                                    <li>
+                                        <p>Click on <em>Add Media</em></p>
+                                        
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                                <a href="images/help-contents/add-media.png" class="thumbnail">
+                                                    <img src="images/help-contents/add-media.png" alt="Add Media" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>A <em>Media Library</em> window will open. Choose <em>Create Gallery</em>.</li>
+                                    
+                                    <li>Now choose images that you want to put on gallery.</li>
+                                    
+                                    <li>
+                                        <p>Click on <em>Create New Gallery</em>.</p>
+                                        
+                                        <a href="images/help-contents/create-gallery.png" class="thumbnail">
+                                            <img src="images/help-contents/create-gallery.png" alt="Create Gallery" />
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <p>Now on the <em>Edit Gallery</em> window, choose <em>Link To <span class="glyphicon glyphicon-arrow-right"></span> Media File</em> and <em>Type to <span class="glyphicon glyphicon-arrow-right"></span> Thumbnail Grid</em> from <em>Gallery Settings</em> at the right pane.</p>
+                                        
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <a href="images/help-contents/gallery-settings.png" class="thumbnail">
+                                                    <img src="images/help-contents/gallery-settings.png" alt="Gallery Settings" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>Now, click on <em>Insert Gallery</em> button.</li>
+                                </ol>
+                            </div>
+                            
+                            
+                            <!-- Creating a Gallery Slideshow -->
+                            <div id="creating-a-gallery-slideshow">
+                                <h3>Creating a Gallery Slideshow</h3>
+                                
+                                <ul>
+                                    <li>Install <a href="http://wordpress.org/plugins/slimjetpack/">Slim Jetpack</a> or <a href="http://wordpress.org/plugins/jetpack/">Jetpack by WordPress.com</a> plugin.</li>
+                                    
+                                    <li>Follow the <a href="#creating-a-gallery">Creating a Gallery</a> procedure from 1 to 5.</li>
+                                    
+                                    <li>
+                                        <p>Now on the <em>Edit Gallery</em> window, choose <em>Link To <span class="glyphicon glyphicon-arrow-right"></span> Media File</em> and <em>Type to <span class="glyphicon glyphicon-arrow-right"></span> Slideshow</em> from <em>Gallery Settings</em> at the right pane.</p>
+                                        
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <a href="images/help-contents/create-slideshow.png" class="thumbnail">
+                                                    <img src="images/help-contents/create-slideshow.png" alt="Gallery Settings: Slideshow" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>Now, click on <em>Insert Gallery</em> button.</li>
+                                </ul>
+                                
+                                <a href="images/help-contents/gallery-slideshow.png" class="thumbnail">
+                                    <img src="images/help-contents/gallery-slideshow.png" alt="Gallery Slideshow" />
+                                </a>
+                            </div>
+                            
+                            
+                            <!-- Portfolio Page -->
+                            <div id="portfolio-page">
+                                <h3>Portfolio Page</h3>
+                                
+                                
+                                <ul>
+                                    <li>Go to <em>Admin Bar <span class="glyphicon glyphicon-arrow-right"></span> New <span class="glyphicon glyphicon-arrow-right"></span> Portfolio</em>.</li>
+                                    
+                                    <li>On the new portfolio post, at the right side there are <em>Project Options</em>. Enter values for <em>Skill</em>, <em>Client</em>, <em>Link</em> etc.</li>
+                                    
+                                    <li>You can also give <em>Category</em> for your project.</li>
+                                    
+                                    <li>Set featured Image.</li>
+                                    
+                                    <li>Click on <em>Publish</em>.</li>
+                                </ul>
+                                
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-12">
+                                        <a href="images/help-contents/portfolio-page.png" class="thumbnail">
+                                            <img src="images/help-contents/portfolio-page.png" alt="Portfolio Page" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Portfolio Gallery -->
+                            <div id="portfolio-gallery">
+                                <h3>Portfolio Gallery</h3>
+                                
+                                <p><em>The First Blog</em> theme can show your portfolio in a gallery. To accomplish that, you just need to create a page and set the template to <em>Portfolio</em>. Then it will automatically grab all of your projects/works and show them as gallery.</p>
+                                
+                                <a href="images/help-contents/portfolio-gallery.png" class="thumbnail">
+                                    <img src="images/help-contents/portfolio-gallery.png" alt="Portfolio Gallery" />
+                                </a>
+                            </div>
+                            
+                            <!-- Contact Form Page -->
+                            <div id="contact-form-page">
+                                <h3>Contact Form Page</h3>
+                                
+                                <p>There are 2 different ways to create a contact form page.</p>
+                                
+                                <dl>
+                                    <dt>Contact Form 7</dt>
+                                    <dd>
+                                        <ul>
+                                            <li>Install and activate <a href="http://wordpress.org/plugins/contact-form-7/">Contact Form 7</a> plugin.</li>
+                                            
+                                            <li>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Contact <span class="glyphicon glyphicon-arrow-right"></span> Contact Form</em>.</li>
+                                            
+                                            <li>
+                                                <p>Copy the shortcode for Contact Form. This shortcode might be similar to this one.</p>
+                                                
+                                                <pre><code>[contact-form-7 id="1570" title="Contact form 1"]</code></pre>
+                                            </li>
+                                            
+                                            <li>Create a new page and give it <em>Default Template</em> as <em>Template</em>.</li>
+                                            
+                                            <li>Paste that shortcode that you copied before.</li>
+                                            
+                                            <li>Click on <em>Publish</em> button.</li>
+                                        </ul>
+                                    </dd>
+                                    
+                                    <dt>Contact Form Page Template</dt>
+                                    <dd>
+                                        <ul>
+                                            <li>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> New <span class="glyphicon glyphicon-arrow-right"></span> Page</em>.</li>
+                                            
+                                            <li>Choose page <em>Template</em> as <em>Contact</em>.</li>
+                                            
+                                            <li>Click on <em>Publish</em> button.</li>
+                                        </ul>
+                                    </dd>
+                                    
+                                </dl>
+                            </div>
+                            
+                            <!-- Archive Page -->
+                            <div id="archive-page">
+                                <h3>Archive Page</h3>
+                                
+                                <ul>
+                                    <li>Go to <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> New <span class="glyphicon glyphicon-arrow-right"></span> Page</em>.</li>
+                                    
+                                    <li>Choose page <em>Template</em> as <em>Archive</em>.</li>
+                                            
+                                    <li>Click on <em>Publish</em> button.</li>
+                                </ul>
+                            </div>
+                            
+                        </section>      <!-- End of 5. Useful Instructions -->
+                        
+                        
+                        <!-- 6. Using Shortcodes -->
+                        <section id="using-shortcodes">
+                            <header>
+                                <h2>6. Using Shortcodes</h2>
+                            </header>
+                            
+                            <p>
+                                <em>The First Blog</em> theme comes with a lot of shortcodes. We have also added wizard to make your life easy. To open the <em>Shortcode Wizard</em>, open a <em>Admin Bar <span class="glyphicon glyphicon-arrow-right"></span> New <span class="glyphicon glyphicon-arrow-right"></span> Post</em>. When post editor opened, click on <em>Shortcode Wizard</em> button.
+                            </p>
+                            
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <a href="images/help-contents/shortcode-wizard-button.png" class="thumbnail">
+                                        <img alt="Shortcode Wizard" src="images/help-contents/shortcode-wizard-button.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-5 col-sm-10 col-xs-12">
+                                    <a href="images/help-contents/images/help-contents/shortcode-wizard-main.png" class="thumbnail">
+                                        <img alt="Shortcode Wizard" src="images/help-contents/shortcode-wizard-main.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <dl>
+                                <!-- Button -->
+                                <dt id="sc-buttons">Button</dt>
+                                <dd>
+                                    <p>This is what buttons look like by shortcode.</p>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-10 col-sm-10 col-xs-12">
+                                            <a href="images/help-contents/shortcode-buttons-screenshot.png" class="thumbnail">
+                                                <img alt="Shortcode Buttons Screenshot" src="images/help-contents/shortcode-buttons-screenshot.png" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <p>Here is the code to display buttons</p>
+                                    
+                                    <pre><code>[button bg="tfb-button-sc-blue" icon="icon-android" url="http://www.google.com" size="medium"]Button Name[/button]</code></pre>
+                                </dd>
+                                
+                                <!-- Box -->
+                                <dt id="sc-boxes">Box</dt>
+                                <dd>
+                                    <p>The boxes are looks like this</p>
+                                    
+                                    <a href="images/help-contents/shortcode-boxes-screenshot.png" class="thumbnail">
+                                        <img alt="Shortcode boxes screenshot" src="images/help-contents/shortcode-boxes-screenshot.png" />
+                                    </a>
+                                    
+                                    <pre><code>[box theme="info" size="full"]Box content[/box]</code></pre>
+                                </dd>
+                                
+                                
+                                <!-- Tooltip -->
+                                <dt id="sc-tooltip">Tooltip</dt>
+                                <dd>
+                                    <p>Tooltip example:</p>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4 col-xs-12">
+                                            <a href="images/help-contents/shortcode-tooltip.png" class="thumbnail">
+                                                <img alt="Shortcode tooltip" src="images/help-contents/shortcode-tooltip.png" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <pre><code>[tooltip tip="This is a tooltip"]Hello World[/tooltip]</code></pre>
+                                </dd>
+                                
+                                <!-- Skillbar -->
+                                <dt id="sc-skillbar">Skillbar</dt>
+                                <dd>
+                                    <p>The skillbar looks like this:</p>
+                                    
+                                    <a href="images/help-contents/shortcode-skillbar.png" class="thumbnail">
+                                        <img alt="Shortcode Skillbar" src="images/help-contents/shortcode-skillbar.png" />
+                                    </a>
+                                    
+                                    <pre><code>[skillbar skill="78" color="#6495ED"]Photoshop[/skillbar]</code></pre>
+                                </dd>
+                                
+                                <!-- Toggle -->
+                                <dt id="sc-toggle">Toggle</dt>
+                                <dd>
+                                    <p>Toggle looks like this:</p>
+                                    
+                                    <a href="images/help-contents/shortcode-toggle.png" class="thumbnail">
+                                        <img src="images/help-contents/shortcode-toggle.png" alt="Shortcode Toggle Screenshot" />
+                                    </a>
+                                    
+                                    <pre><code>[toggle title="Toggle Title"]Toggle content here...[/toggle]</code></pre>
+                                </dd>
+                                
+                                <!-- Accordions -->
+                                <dt id="sc-accordions">Accordions</dt>
+                                <dd>
+                                    <p>Accordions looks like this:</p>
+                                    
+                                    <a href="images/help-contents/shortcode-accordions.png" class="thumbnail">
+                                        <img src="images/help-contents/shortcode-accordions.png" alt="Accordions Screenshot" />
+                                    </a>
+                                    
+                                    <pre><code>[accordions][accordion title="accordion title 1"]Your accordion 1 content here...[/accordion][accordion title="accordion title 2"]Your accordion 2 content here...[/accordion][accordion title="accordion title 3"]Your accordion 3 content here...[/accordion][/accordions]</code></pre>
+                                </dd>
+                                
+                                <!-- Tabs -->
+                                <dt id="sc-tabs">Tabs</dt>
+                                <dd>
+                                    <p>Tabs looks like this:</p>
+                                    
+                                    <a href="images/help-contents/shortcode-tabs.png" class="thumbnail">
+                                        <img src="images/help-contents/shortcode-tabs.png" alt="Shortcode Tabs" />
+                                    </a>
+                                    
+                                    <pre><code>[tabs][tab title="tab 1 title here"]Your tab 1 content here...[/tab][tab title="tab 2 title here"]Your tab 2 content here...[/tab][tab title="tab 3 title here"]Your tab 3 content here...[/tab][/tabs]</code></pre>
+                                </dd>
+                                
+                                <!-- Columns -->
+                                <dt id="sc-columns">Columns</dt>
+                                <dd>
+                                    <p>Columns shortcode looks like this</p>
+                                    
+                                    <pre><code>[columns cc="2"]Your content here...[/columns]</code></pre>
+                                </dd>
+                                
+                                <!-- Highlight -->
+                                <dt id="sc-highlight">Highlight</dt>
+                                <dd>
+                                    <p>Highlight looks like this:</p>
+                                    
+                                    <a href="images/help-contents/shortcode-highlight.png" class="thumbnail">
+                                        <img src="images/help-contents/shortcode-highlight.png" alt="Highlight Shortcode" />
+                                    </a>
+                                    
+                                    <pre><code>[highlight bgcolor="#8FA0AD" textcolor="#F5F5F3"]this text will be highlighted[/highlight]</code></pre>
+                                </dd>
+                                
+                                <!-- Horizontal Rule -->
+                                <dt id="sc-hr">Horizontal Rule</dt>
+                                <dd>
+                                    <p>Horizontal Rule looks like this:</p>
+                                    
+                                    <a href="images/help-contents/shortcode-hr.png" class="thumbnail">
+                                        <img src="images/help-contents/shortcode-hr.png" alt="Horizontal Rule Shortcode" />
+                                    </a>
+                                    
+                                    <pre><code>[hr]</code></pre>
+                                </dd>
+                                
+                                <!-- Drop cap -->
+                                <dt id="sc-dropcap">Drop cap</dt>
+                                <dd>
+                                    <p>Drop cap looks like this:</p>
+                                    
+                                    <a href="images/help-contents/shortcode-dropcap.png" class="thumbnail">
+                                        <img src="images/help-contents/shortcode-dropcap.png" alt="Drop cap Shortcode" />
+                                    </a>
+                                    
+                                    <pre><code>[dropcap]H[/dropcap]ello World</code></pre>
+                                </dd>
+                                
+                                <!-- Soundcloud -->
+                                <dt id="sc-soundcloud">Soundcloud</dt>
+                                <dd>
+                                    <p>Soundcloud looks like this:</p>
+                                    
+                                    <a href="images/help-contents/shortcode-soundcloud.png" class="thumbnail">
+                                        <img src="images/help-contents/shortcode-soundcloud.png" alt="Soundcloud Shortcode" />
+                                    </a>
+                                    
+                                    <pre><code>[soundcloud url="https://api.soundcloud.com/tracks/112400297" params="auto_play=false&amp;hide_related=true&amp;visual=true" width="100%" height="auto" iframe="true" /]</code></pre>
+                                </dd>
+                        
+                                <!-- Youtube -->
+                                <dt id="sc-youtube">Youtube</dt>
+                                <dd>
+                                    <pre><code>[youtube=https://www.youtube.com/watch?v=pVRAnw9jUNc&amp;w=480&amp;rel=0]</code></pre>
+                                </dd>
+                                
+                                <!-- Vimeo -->
+                                <dt id="sc-vimeo">Vimeo</dt>
+                                <dd>
+                                    <pre><code>[vimeo http://vimeo.com/16522975 w=480]</code></pre>
+                                </dd>
+                                
+                                <!-- Google Map -->
+                                <dt id="sc-google-map">Google Map</dt>
+                                <dd>
+                                    <pre><code>[google-map-sc addr="Sydney, Australia" width="450" height="300" zoom_level="15" show_marker="true" title="Sydney" /]</code></pre>
+                                </dd>
+                                
+                                <!-- Quote -->
+                                <dt id="sc-quote">Quote</dt>
+                                <dd>
+                                    <pre><code>[quote ]This is a quote[cite]by Someone[/cite][/quote]</code></pre>
+                                </dd>
+                                
+                            </dl>
+                            
+                        </section>      <!-- End of 6. Using Shortcodes -->
+                        
+                        
+                        <!-- 7. Translation -->
+                        <section id="translation">
+                            <header>
+                                <h2>7. Translation</h2>
+                            </header>
+                            
+                            <p>
+                                This theme is translatable. We have included <em>thefirstblog.pot</em> file at <em>thefirstblog (theme directory) <span class="glyphicon glyphicon-arrow-right"></span> languages</em> folder. To open that file you may use <a href="http://www.poedit.net/">Poedit</a> software. This software is free and opensource and also available on Mac, Linux and Windows platform. So, download, install and run the <em>Poedit</em> software and follow procedures written in bellow.
+                            </p>
+                            
+                            <ul>
+                                <li>
+                                    <p>Run <em>Poedit</em> software and open <em>thefirstblog.pot</em> file from <em>languages</em> directory.</p>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <a href="images/help-contents/poedit-screenshot.png" class="thumbnail">
+                                                <img src="images/help-contents/poedit-screenshot.png" alt="Poedit Screenshot" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>Go to <em>Catalog <span class="glyphicon glyphicon-arrow-right"></span> Properties...</em></li>
+                                
+                                <li>A <em>Catalog Properties</em> window will open. Change <em>Project Name</em>, <em>Version</em>, <em>Languages</em> etc. Then press <em>Ok</em> button.</li>
+                                
+                                <li>Now translate those English words to your language.</li>
+                                
+                                <li>Click <em>File <span class="glyphicon glyphicon-arrow-right"></span> Save as...</em> from menu.</li>
+                                
+                                <li>Well, the save part is little bit tricky. You will need to name as <em>your-language-code_YOUR-COUNTRY-CODE</em>. For example, if you are Spanish, the the file name should be <em>es_ES.po</em> or if you are French then it should be <em>fr_FR.po</em></li>
+                                
+                                <li>A list of country and language code can be found <a href="http://www.gnu.org/software/gettext/manual/gettext.html#Language-Codes">here</a>.</li>
+                                
+                                <li>Now, that you have saved your <em>*.po</em> and <em>*.mo</em> (this will be automatically created) file, its time to add your language to <em>wp-config.php</em> file.</li>
+                                
+                                <li>Go to WordPress root directory where <em>wp-admin, wp-content, wp-includes</em> folder are located. There you will find <em>wp-config.php</em> file.</li>
+                                
+                                <li>Now, open <em>wp-config.php</em> with any plain text editor (like <em>Textmate, gEdit, Notepad</em> etc).</li>
+                                
+                                <li>In that file find <code>define ('WPLANG', '');</code> and change this to that file name you saved (without extension). For example if your file name is <em>fr_FR.po</em>, then write <code>define ('WPLANG', 'fr_FR');</code></li>
+                                
+                                <li>Save the file and refresh your WordPress site.</li>
+                            </ul>
+                        </section>      <!-- End of 7. Translation -->
+                        
+                        
+                        <!-- 8. Widgets Included -->
+                        <section id="widgets-included">
+                            <header>
+                                <h2>8. Widgets Included</h2>
+                            </header>
+                            
+                            <p>This theme comes with additional widgets. They are all available on <em>Admin Panel <span class="glyphicon glyphicon-arrow-right"></span> Appearances <span class="glyphicon glyphicon-arrow-right"></span> Widgets</em></p>
+                            
+                            <dl>
+                                <dt id="about-me-widget">About Me</dt>
+                                <dd>
+                                    <p>It displays short description about yourself along with your image. To display your image, visit <a href="http://en.gravatar.com/">Gravatar Website</a> and open an account there and upload your image as your profile picture there. Now copy that email address that you have used for opening account on <em>Gravatar</em> and paste that email address to <em>About Me</em> widget&quot;s <em>Gravatar Email Address</em>  field. Now <em>Save</em> it.</p>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4 col-xs-12">
+                                            <a href="images/help-contents/about-me-widget.png" class="thumbnail">
+                                                <img src="images/help-contents/about-me-widget.png" alt="About Me Widget" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </dd>
+                                
+                                <dt id="facebook-like-page-widget">Facebook Like Page</dt>
+                                <dd>You just need to have your Facebook Page URL to use this widget.</dd>
+                                
+                                <dt id="flickr-widget">Flickr</dt>
+                                <dd>
+                                    <p>This display your <em>Flickr Photos</em> in a gallery.</p>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4 col-xs-12">
+                                            <a href="images/help-contents/flickr-widget.png" class="thumbnail">
+                                                <img src="images/help-contents/flickr-widget.png" alt="Flickr Widget" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </dd>
+                                
+                                <dt id="google-plus-badge-widget">Google Plus Badge</dt>
+                                <dd>A simple embedded Google Badge, you just need to use your Google ID. Visit your Google Plus site and at the top left corner choose <em>Profile</em> instead of <em>Home</em> from drop down menu. Now from your site URL you will find your Google Plus ID. Copy that ID and paste it to widget and click on <em>Save</em>.</dd>
+                                
+                                <dt id="pinterest-widget">Pinterest</dt>
+                                <dd>
+                                    <p>You can display your <em>Pinterest</em> board on this widget.</p>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4 col-xs-12">
+                                            <a href="images/help-contents/pinterest-widget.png" class="thumbnail">
+                                                <img src="images/help-contents/pinterest-widget.png" alt="Pinterest Widget" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </dd>
+                                
+                                <dt id="social-links-widget">Social Links</dt>
+                                <dd>
+                                    <p>Displays your social links as colorful icons on sidebar.</p>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4 col-xs-12">
+                                            <a href="images/help-contents/social-links-widget.png" class="thumbnail">
+                                                <img src="images/help-contents/social-links-widget.png" alt="Social Links Widget" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </dd>
+                                
+                                <dt id="twitter-widget">Twitter</dt>
+                                <dd>
+                                    <p>Displays your <em>Twitter</em> feed. Twitter Widget ID is required for this. To aquire a <em>Twitter Widget ID</em> follow instruction from <a href="#aquire-a-twitter-widget-id">here</a>.</p>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4 col-xs-12">
+                                            <a href="images/help-contents/twitter-widget.png" class="thumbnail">
+                                                <img src="images/help-contents/twitter-widget.png" alt="Twitter Widget" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </dd>
+                                
+                                <dt id="embedding-video-widget">Embedding Video by <em>Text</em> Widget</dt>
+                                <dd>
+                                    <p><em>Text</em> widget is builtin widget in WordPress, but you may use shortcode to display <em>Vimeo, Youtube</em> etc on this widget. Instructions for <em>Youtube</em> shortcode can be found <a href="#sc-youtube">here</a> and for <em>Vimeo</em> is <a href="#sc-vimeo">here</a>.</p>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4 col-xs-12">
+                                            <a href="images/help-contents/embedding-video-widget.png" class="thumbnail">
+                                                <img src="images/help-contents/embedding-video-widget.png" alt="Embedding Video Widget" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </dd>
+                                
+                            </dl>
+                        </section>
+                        
+                        <!-- 9. CSS Files -->
+                        <section id="css-files">
+                            <header>
+                                <h2>9. CSS Files</h2>
+                            </header>
+                            
+                            <p>This theme contains following <abbr title="Cascanding Style Sheet">CSS</abbr> files:</p>
+                            
+                            <ul>
+                                <li><em>the-first-blog-default-style.css</em> - Contains default style information for this theme.</li>
+                                <li><em>tfb-desktop.css</em> - Styles for desktop</li>
+                                <li><em>tfb-tablet.css</em> - Styles for tablet types of device</li>
+                                <li><em>tfb-phone.css</em> - Styles for hanheld device like phones</li>
+                                <li><em>tfb-print-style.css</em> - Styles for printing</li>
+                                <li><em>tfb-comments-style.css</em> - Styles for comments</li>
+                                <li><em>tfb-menu-style.css</em> - Styles for responsive menu</li>
+                            </ul>
+                        </section>      <!-- End of 9. CSS Files -->
+                        
+                        <!-- 10. Javascript Files -->
+                        <section id="js-files">
+                            <header>
+                                <h2>10. Javascript Files</h2>
+                            </header>
+                            
+                            <p>This theme contains following Javascript files:</p>
+                            
+                            <ul>
+                                <li><em>jquery-ui.min.js</em> - jQuery file. Downloaded from <a href="http://jqueryui.com/">http://jqueryui.com/</a></li>
+                                
+                                <li><em>colpick.js</em> - For color picker. Downloaded from <a href="http://colpick.com/">http://colpick.com/</a></li>
+                                
+                                <li><em>HandleTwitterPost.js</em> - For fetching <em>Twitter</em> feeds.</li>
+                                
+                                <li><em>highlight.pack.js</em> - Code highlighter. Downloaded from <a href="http://highlightjs.org/">http://highlightjs.org/</a></li>
+                                
+                                <li><em>jquery.cookie.js</em> - Cookie plugin for jQuery. Downloaded from <a href="https://github.com/carhartl/jquery-cookie">https://github.com/carhartl/jquery-cookie</a></li>
+                                
+                                <li><em>jquery.fitvids.js</em> - For responsive embedding video. Downloaded from <a href="http://fitvidsjs.com/">http://fitvidsjs.com/</a></li>
+                                
+                                <li><em>jquery.flexslider-min.js</em> - Slider used fro Twitter Feeds on header. Downloaded from <a href="http://www.woothemes.com/flexslider/">http://www.woothemes.com/flexslider/</a></li>
+                                
+                                <li><em>jquery.scrollUp.min.js</em> - Downloaded from <a href="http://markgoodyear.com/labs/scrollup/">http://markgoodyear.com/labs/scrollup/</a></li>
+                                
+                                <li><em>jquery.vanillabox-0.1.5.min.js</em> - Light box plugin. Downloaded from <a href="http://cocopon.me/app/vanillabox/">http://cocopon.me/app/vanillabox/</a></li>
+                                
+                                <li><em>SocialLinks.js</em> - Displays social icons along with links on header</li>
+                                
+                                <li><em>tfb-common-tools.js</em> - Contains some important Javascript functions which is required by other Javascript files</li>
+                                
+                                <li><em>tfb-insert-shortcodes.js</em> - This is the <em>Shortcode Wizard</em> dialog, meant for choosing and using shortcode graphically instead of writing codes on hand.</li>
+                                
+                                <li><em>tfb-menu-script.js</em> - Required for running responsive menu.</li>
+                                
+                                <li><em>tfb-shortcodes-behaviour.js</em> - This contains Javascript functions for running shortcode perfectly</li>
+                                
+                                <li><em>TwitterPostFetcher.js</em> - Contains core library for fetching Twitter feeds from internet</li>
+                            </ul>
+                            
+                        </section>      <!-- End of 10. Javascript Files -->
+                        
+                        
+                        
+                        <!-- 11. PHP Files -->
+                        <section id="php-files">
+                            <header>
+                                <h2>11. PHP Files</h2>
+                            </header>
+                            
+                            <p>Except the main files needed for this theme, we have used an external PHP file <em>class-tgm-plugin-activation.php</em> for notifying user for required plugins. This file is downloaded from <a href="http://tgmpluginactivation.com/">http://tgmpluginactivation.com/</a> site.</p>
+                        </section>      <!-- End of 11. PHP Files -->
+                        
+                        
+                        <!-- 12. Support -->
+                        <section id="support">
+                            <header>
+                                <h2>12. Support</h2>
+                            </header>
+                            
+                            <p>We will do our best to assist with questions directly related to the theme set up, however please note that theme support is completely voluntary for Mojo Marketplace authors. Therefore before you contact us, please consider finding an answer to your question in:</p>
+                            
+                            <ul>
+                                <li>The relevant section of the documentation</li>
+                                
+                                <li><a href="http://codex.wordpress.org/Main_Page">WordPress Codes</a> for general WordPress questions</li>
+                                
+                                <li><a href="http://google.com">Google</a> for general questions</li>
+                            </ul>
+                            
+                        </section>      <!-- End of 12. Support -->
+                        
+                    </article>
+                    
+                    <section id="last-note">
+                        <p>Once again, thank you so much for purchasing this theme! If you like it, please don't forget to rate it on the Mojo Marketplace site.</p>
+                    </section>
+                </div>
+            </div>
+            
+            
+            <!-- Footer -->
+            <footer class="col-md-12">
+                <p><em>GraphiteThemes</em></p>
+            </footer>
+            
+        </div>  <!-- End of .container -->
+        
+        
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                jQuery.scrollUp({
+                    scrollName: 'scrollUp', // Element ID
+                    topDistance: '300', // Distance from top before showing element (px)
+                    topSpeed: 300, // Speed back to top (ms)
+                    animation: 'fade', // Fade, slide, none
+                    animationInSpeed: 200, // Animation in speed (ms)
+                    animationOutSpeed: 200, // Animation out speed (ms)
+                    scrollText: 'Scroll to top', // Text for element
+                    activeOverlay: false // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+                });
+                
+                
+                hljs.initHighlightingOnLoad();
+                
+                jQuery('a.thumbnail').each(function() {
+                    jQuery(this).vanillabox();
+                });
+            });
+        </script>
+        
+        
+    </body>
+</html>

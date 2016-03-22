@@ -1,0 +1,11 @@
+.tfb-the-content iframe, .tfb-the-content video, .tfb-the-content .wp-video {
+    max-width: 100% !important;
+    margin: auto;
+}
+
+.tfb-the-content .mejs-container.svg.mejs-video {
+    width: 100% !important;
+    height: auto;
+}
+
+

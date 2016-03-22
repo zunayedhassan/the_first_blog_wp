@@ -1,0 +1,65 @@
+/*
+ *  TFB MENU
+ *  VERSION:    1.0
+ *  
+ *  AUTHOR:     Mohammod Zunayed Hassan
+ *  EMAIL:      ZunayedHassanBD@gmail.com
+ *  
+ */
+
+/* Theme */
+
+.tfb-menu, .tfb-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tfb-menu a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 12pt;
+    display: block;
+    padding: 0.5em;             /* (.tfb-menu a) padding and (.tfb-menu-parent a div:last-child) margin and padding should be exactly same number. */
+}
+
+
+
+.tfb-menu > li li {
+    min-width: 12em;        /* Just in case, if sub menu item name is too large, then you will also need to increase this number as well */
+}
+
+.tfb-menu > .tfb-menu-parent {
+    //min-width: 6em;         /* This value is meant for Internet Explorer. If your menu item of main menu is large, then increase this number too for IE. */
+}
+
+.tfb-mobile-menu-button {
+    
+    width: 40px;
+    height: 40px;
+    
+    font-size: 1.5em;
+    border: none;
+}
+
+@media screen and (min-width: 641px) {
+    .tfb-mobile-menu-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .tfb-menu-parent a div:last-child {
+        margin: -0.5em -0.5em 0 0;         /* (.tfb-menu a) padding and (.tfb-menu-parent a div:last-child) margin and padding should be exactly same number. */
+    }
+    
+    .tfb-menu-parent a div:last-child > div {
+        margin: 0;
+        padding: 0.5em;
+    }
+    
+    
+    .tfb-menu > li > ul > li a {
+        padding-left: 2em;
+    }
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="80"
+   height="80"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="tfb-icon.svg"
+   inkscape:export-filename="C:\Users\Zunayed Hassan\Desktop\tfb-icon\tfb-icon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <title
+     id="title3782">TFB Icon</title>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3755">
+      <stop
+         style="stop-color:#333333;stop-opacity:1;"
+         offset="0"
+         id="stop3757" />
+      <stop
+         style="stop-color:#666666;stop-opacity:1;"
+         offset="1"
+         id="stop3759" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3755"
+       id="linearGradient3761"
+       x1="79.935272"
+       y1="79.546928"
+       x2="0.38835046"
+       y2="-1.0355978"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3755"
+       id="linearGradient3008"
+       gradientUnits="userSpaceOnUse"
+       x1="79.935272"
+       y1="79.546928"
+       x2="0.38835046"
+       y2="-1.0355978"
+       gradientTransform="matrix(1.0125,0,0,1,0.32766989,972.9447)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.01"
+     inkscape:cx="85.048544"
+     inkscape:cy="35.540379"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>TFB Icon</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-972.36218)">
+    <g
+       id="g3010">
+      <rect
+         y="972.36218"
+         x="0"
+         height="80"
+         width="81"
+         id="rect2985"
+         style="fill:url(#linearGradient3008);fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3763"
+         y="1021.7861"
+         x="40.621899"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#cccccc;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         xml:space="preserve"><tspan
+           style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#cccccc;font-family:League Gothic;-inkscape-font-specification:League Gothic"
+           id="tspan3769"
+           y="1021.7861"
+           x="40.621899"
+           sodipodi:role="line">TFB</tspan></text>
+      <rect
+         y="1031.1809"
+         x="0"
+         height="21"
+         width="81"
+         id="rect3776"
+         style="fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3778"
+         y="1045.4587"
+         x="9.4947834"
+         style="font-size:15.06671333px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;font-family:Ubuntu-Title;-inkscape-font-specification:Ubuntu-Title"
+         xml:space="preserve"><tspan
+           style="font-size:15.06671333px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#cccccc;font-family:Ubuntu-Title;-inkscape-font-specification:Ubuntu-Title"
+           y="1045.4587"
+           x="9.4947834"
+           id="tspan3780"
+           sodipodi:role="line">WORDPRESS</tspan></text>
+    </g>
+  </g>
+</svg>
